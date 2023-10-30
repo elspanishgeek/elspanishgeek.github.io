@@ -17,20 +17,15 @@
         data-bs-placement="top"
         title="{{ site.data.locales[include.lang].copyright.verbose }}"
       >
-        {{- site.data.locales[include.lang].copyright.brief -}}
+        Some rights reserved.
       </span>
     {% endif %}
   </p>
 
   <p>
-    {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-    {%- endcapture -%}
-
-    {%- capture _theme -%}
-      <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
-    {%- endcapture -%}
-
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+    Theme for <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> 
+    from a fork of
+    <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
+    by @elspanishgeek.
   </p>
 </footer>
