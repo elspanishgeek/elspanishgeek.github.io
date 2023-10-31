@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 order: 3
 tab_title: Patents
 ---
-
-# Patents 
 
 <hr/>
 
