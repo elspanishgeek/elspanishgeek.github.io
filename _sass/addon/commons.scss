@@ -8,23 +8,7 @@ html {
     &[data-mode='light'] {
       @include light-scheme;
     }
-
-    &[data-mode='dark'] {
-      @include dark-scheme;
-    }
   }
-
-  @media (prefers-color-scheme: dark) {
-    &:not([data-mode]),
-    &[data-mode='dark'] {
-      @include dark-scheme;
-    }
-
-    &[data-mode='light'] {
-      @include light-scheme;
-    }
-  }
-
   font-size: 16px;
 }
 
@@ -1281,7 +1265,11 @@ search {
     @include slide;
   }
 
-  #topbar,
+  #topbar {
+    border-bottom: 1px solid whitesmoke;
+    justify-content: left!important;
+  }
+
   #main-wrapper > .container {
     max-width: 100%;
   }
@@ -1310,6 +1298,7 @@ search {
   #sidebar-trigger,
   #search-trigger {
     display: block;
+    width: auto;
   }
 
   #search-result-wrapper .content {
