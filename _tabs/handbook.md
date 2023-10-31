@@ -11,6 +11,9 @@ refactor: true
 panel_includes:
   - toc
 ---
+
+<hr/>
+
 # Preface
 
 I have terrible memory. I write everything down, random thoughts, thoughts that were validated and don't want to forget, and smart things I've read or heard from others. This handbook is my attempt at organizing everything in my experience. 
