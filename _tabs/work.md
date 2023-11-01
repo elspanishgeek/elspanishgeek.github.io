@@ -18,7 +18,9 @@ Having contributed to the growth of Austin's Food Tech startup ecosystem, my fea
 
 During the pandemic lockdown, I worked remotely as the VP of Engineering for **Ads Inside**, one of Facebook's first 10 Marketing Partners for Technical Services. In this role, I created custom server-side "Pixel" integrations for over 20 e-commerce platforms, spanning checkout flows, product catalogs, and online inventories, using various programming languages, including Python, PHP, Ruby, Java, and JavaScript. I also architected, designed, and developed a full-stack Django and React platform known as Pixel Health. This platform enabled the tracking, management, and actioning of custom analytics related to e-commerce conversion events.
 
-In 2021, I was approached by the VP of Engineering at **Homebase**, a San Francisco-based startup with over 300 employees, focused on building a platform for managing the shift-worker ecosystem for small business owners. During my tenure at Homebase, I led the Billing team through several crucial projects, which were both technologically complex and business-critical. By the time I left, I was responsible for the Core App Group, overseeing 21 engineers and an engineering manager, all contributing to the core functionality of the platform. In 2023, I departed Homebase in search of non-remote opportunities in Austin, Texas, within early or growth-stage startups, where I believe my experience and expertise can make the most impact. In the meantime, I've been busy completing the construction of a 1965 Shelby Cobra replica.
+In 2021, I was approached by the VP of Engineering at **Homebase**, a San Francisco-based startup with over 300 employees, focused on building a platform for managing the shift-worker ecosystem for small business owners. During my tenure at Homebase, I led the Billing team through several crucial projects, which were both technologically complex and business-critical. By the time I left, I was responsible for the Core App Group, overseeing 21 engineers and an engineering manager, all contributing to the core functionality of the platform. In 2023, I departed Homebase in search of non-remote opportunities in Austin, Texas, within early or growth-stage startups, where I believe my experience and expertise can make the most impact. 
+
+In the meantime, I've been busy completing the construction of a 1965 Shelby Cobra replica, made this website, and wrote a "living handbook" on engineering leadership. [Read my handbook →](/handbook)
 <hr/>
 
 # Career History
@@ -26,7 +28,7 @@ In 2021, I was approached by the VP of Engineering at **Homebase**, a San Franci
 ## Homebase
 **Role:** Senior Engineering Manager<br>
 
-**Responsabilities:**
+**Responsibilities:**
   - Led a Billing Group for most of my tenure, responsible for the payment functionality, and then expanded to the Core App Group, responsible for the main feature set of the platform.
   - Scaled a diverse and globally distributed group of 21 engineers, comprised of backend and frontend engineers, and an engineering manager.
   - Performed as one of the primary hiring managers for the engineering department, conducting over 60 interviews of software engineers and engineering managers.
@@ -42,7 +44,7 @@ In 2021, I was approached by the VP of Engineering at **Homebase**, a San Franci
 ## Ads Inside
 **Role:** VP of Engineering<br>
 
-**Responsabilities:** 
+**Responsibilities:** 
   - Architected, developed, and supported full-stack Python, Django, and Javascript tools to manage and act on custom analytics of +100M e-commerce conversion events.
   - Implemented and supported custom API marketing server-side integrations in Python, PHP, Ruby, Java, and Javascript
   - Designed, developed, and supported a serverless Shopify app with AWS products.
@@ -63,7 +65,7 @@ In 2021, I was approached by the VP of Engineering at **Homebase**, a San Franci
 ## Sigma Lion
 **Role:** CEO/CTO + Full Stack Engineer + DevOps Engineer<br>
 
-**Responsabilities:** 
+**Responsibilities:** 
   - Architected, developed, and supported an API-based Django/Python backend with a CI/CD pipeline in AWS, as well as co-designed and co-developed a front-end React app.
   - Designed a parameterization procedure for cataloguing early and growth stage startups, based on latest entrepreneurial investment research.
   - Developed a machine learning platform implementing several statistical techniques in TensorFlow.
@@ -85,7 +87,7 @@ In 2021, I was approached by the VP of Engineering at **Homebase**, a San Franci
 ## Full Fridge
 **Role:** CEO/CTO + Full Stack Engineer + DevOps Engineer<br>
 
-**Responsabilities:** 
+**Responsibilities:** 
   - Architected, developed, and supported a suite of tools that allowed for precise logistical and operational procedures: Real-time traffic delivery radius maximizer, cluster delivery routing, and several bespoke end-to-end supply chain (procurement, production, storage) solutions.
   - Managed and led a diverse cross functional team, including 3 partner executives, a VP of Marketing, and 2 college interns.
 
@@ -105,7 +107,7 @@ In 2021, I was approached by the VP of Engineering at **Homebase**, a San Franci
 ## Tastegraphy
 **Role:** CTO + Backend Engineer + DevOps Engineer<br>
 
-**Responsabilities:** 
+**Responsibilities:** 
   - Architected, developed, and supported an API-based Django/Python backend with a CI/CD pipeline in AWS, and co-designed the UI and UX of a Swift iOS app.
   - Designed and [published a patent](https://patentimages.storage.googleapis.com/98/b7/34/ace6f12f519961/US20170053362A1.pdf) for a machine-learning recommendation engine for gastronomical preferences.
   - Led a team of 10 MBA students through collaborative projects in market validation, competitive analysis, and business model assessment.
@@ -127,7 +129,7 @@ In 2021, I was approached by the VP of Engineering at **Homebase**, a San Franci
 ## IBM
 **Role:** Software Engineer + Hardware/Firmware Engineer<br>
 
-**Responsabilities:** 
+**Responsibilities:** 
   - Developed and provided support for the Systems Management team of IBM's flagship application server, WebSphere.<br>
   - Troubleshooted and provided direct customer support for POWER7 servers.
 
