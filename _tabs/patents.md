@@ -4,6 +4,8 @@ order: 3
 tab_title: Patents
 ---
 
+# Patents & Publications
+
 <hr/>
 
 ## Controlling Automotive Rear-View Mirror Based On Eye Movement

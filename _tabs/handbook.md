@@ -1,10 +1,7 @@
 ---
 layout: post
 order: 4
-title: The Fede Engineering & Leadership Handbook
 tab_title: Handbook
-author: fede
-date: 2019-08-08 11:33:00 +0800
 math: true
 mermaid: true
 refactor: true
@@ -12,14 +9,16 @@ panel_includes:
   - toc
 ---
 
+# The Fede Engineering & Leadership Handbook
+
 <hr/>
 
-# Preface
+## What is this?
 
-I have terrible memory. I write everything down, random thoughts, thoughts that were validated and don't want to forget, and smart things I've read or heard from others. This handbook is my attempt at organizing everything in my experience. 
+I have terrible memory, so I make it a habit to jot down everything. This includes ideas I want to explore, crucial validated assumptions I can't afford to forget, and insightful nuggets I've come across from people smarter than myself. I then diligently store all this information in a searchable format. Instead of trying to boost my memory recall, I rely on the trusty `Ctrl/Cmd + F` shortcut to navigate to the relevant keywords I know will lead me to the information I seek. However, over the past 12 years, I've scattered these notes across numerous platforms and applications, forcing me to become my own makeshift SQL expert, performing manual JOIN operations to locate what I need.
 
+This handbook is a living document that keeps getting updating with all this valuable knowledge into one accessible location. It's my way of enabling quick keyword searches in one centralized place. I figured that if it helps me, it might just be useful for someone else too. 
 
-<br>
 <hr/>
 
 ## Effective Organization

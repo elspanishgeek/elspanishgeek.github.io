@@ -475,10 +475,18 @@ main {
   border-radius: 10px !important;
 }
 
+.work-images{
+  a:hover {
+    opacity: 0.8;
+  }
+}
+
 .img-link {
   color: transparent;
   display: inline-flex;
 }
+
+
 
 .shimmer {
   overflow: hidden;
@@ -517,9 +525,9 @@ main {
 }
 
 .embed-video {
-  width: 100%;
+  /*width: 100%;
   height: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;*/
 
   @extend %rounded;
 
