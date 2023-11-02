@@ -785,7 +785,7 @@ $btn-mb: 0.5rem;
 
   %sidebar-link-hover {
     &:hover {
-      color: #c22d2d;
+      color: $highlight-red;
     }
   }
 
@@ -818,11 +818,11 @@ $btn-mb: 0.5rem;
       color: var(--site-title-color);
     }
 
-    &.active {
+    /*&.active {
       a {
-        color: #c22d2d;
+        color: $highlight-red;
       }
-    }
+    }*/
 
   }
 
@@ -1375,7 +1375,7 @@ search {
   }
 
   #topbar {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid $highlight-red-topbar;
     justify-content: left!important;
   }
 
@@ -1501,10 +1501,13 @@ search {
   }
 }
 
-/* panel hidden */
+/* panel moved down */
 @media all and (max-width: 1199px) {
   #panel-wrapper {
-    display: none;
+    padding-top: 32px;
+    border-top: 1px solid var(--main-border-color);
+    display: block;
+    width: auto;
   }
 
   #main-wrapper > .container > div.row {
