@@ -36,7 +36,7 @@ In the meantime, I've been busy completing the construction of a 1965 Shelby Cob
 **Highlights:**
   - Led the Billing Group through two major migration projects with zero impact on MRR and removed multi-year technical debt in the process.
   - Directed two of the first cross-functional projects across departments (Engineering, Product, Customer Support, Marketing, Sales, Finance), which increased MRR by 22%.
-  - Served as fractional Tech Lead and Product Owner.
+  - Served as fractional Tech Lead and Product Owner for a tactical and time-sensitive one-off project to meet a regulatory compliance.
 <hr/>
 
 
@@ -136,6 +136,7 @@ In the meantime, I've been busy completing the construction of a 1965 Shelby Cob
 **Highlights:**
 - [Co-authored a patent](https://patentimages.storage.googleapis.com/41/1b/e0/ba9b1ea5871c91/US10169172.pdf) that allowed for "High Availability" in distributed cloud environments. This technology enabled WebSphere to increase revenue per client by $10M.
 - [Co-authored a patent](https://patentimages.storage.googleapis.com/51/ef/4d/9bac31ca974e47/US9729438.pdf) that allowed for anonymous traffic routing in distributed cloud environments.
+- [Solo-authored a patent](https://patentimages.storage.googleapis.com/31/f9/a9/d021678a2850d6/US9654740.pdf) for automobile safety technology, which was later sold to Maplebear, Inc (Instacart).
 
 **Team:**<br>
 <figure class="work-images" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
