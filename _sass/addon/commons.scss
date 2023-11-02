@@ -529,12 +529,12 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
 
-  .home-column-bot {
+  .home-column.bot {
     flex: 33%;
     max-width: 30%;
   }  
 
-  .home-column-top {
+  .home-colum.top {
     flex: 66%;
     max-width: 66%;
   }
@@ -556,11 +556,16 @@ main {
 
 }
 
-@media all and (max-width: 849px) {
+@media all and (max-width: 768px) {
     .home-column {
       flex: 100%!important;
       max-width: 100%!important;
     }
+
+    .home-column.top > h1 {
+      margin-top: 0;
+    }
+
   }
 
 /*.eng-grid {
