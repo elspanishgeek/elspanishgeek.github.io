@@ -486,7 +486,104 @@ main {
   display: inline-flex;
 }
 
+/* ENGINEERING PAGE CSS */
+.eng-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
 
+/* Create four equal columns that sits next to each other */
+.eng-column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 5px;
+}
+
+.eng-column img {
+  vertical-align: middle;
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+
+.eng-img {
+  cursor: zoom-in;
+
+  &:hover {
+    opacity: 0.8;
+    transition: all .35s ease-in-out;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media all and (max-width: 768px) {
+  .eng-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* HOME PAGE CSS */
+.home-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .home-column-bot {
+    flex: 33%;
+    max-width: 30%;
+  }  
+
+  .home-column-top {
+    flex: 66%;
+    max-width: 66%;
+  }
+
+  .home-credo > p {
+    font-style: italic;
+  }  
+
+
+
+  /*.home-item {
+    flex: 1;
+    min-width: calc(33.33% - 10px);
+    margin: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-sizing: border-box;
+  }*/
+
+}
+
+@media all and (max-width: 849px) {
+    .home-column {
+      flex: 100%!important;
+      max-width: 100%!important;
+    }
+  }
+
+/*.eng-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+    .eng-column {
+      float: left;
+      width: 250px;
+    }
+
+    .eng-item {
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 1;
+      box-shadow: var(--card-shadow)   
+    }
+
+    .has-margin {
+
+    }
+  }*/
 
 .shimmer {
   overflow: hidden;

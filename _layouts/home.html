@@ -1,88 +1,110 @@
 ---
-layout: default
-refactor: true
+layout: compress
 ---
+
+<!doctype html>
+
+{% include origin-type.html %}
 
 {% include lang.html %}
 
-{% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
-
-{% assign posts = '' | split: '' %}
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in posts %}
-    <article class="card-wrapper card">
-      <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
-        {% assign card_body_col = '12' %}
-
-        {% if post.image %}
-          {% assign src = post.image.path | default: post.image %}
-          {% unless src contains '//' %}
-            {% assign src = post.img_path | append: '/' | append: src | replace: '//', '/' %}
-          {% endunless %}
-
-          {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
-
-          {% assign lqip = null %}
-
-          {% if post.image.lqip %}
-            {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
-          {% endif %}
-
-          <div class="col-md-5">
-            <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
-          </div>
-
-          {% assign card_body_col = '7' %}
-        {% endif %}
-
-        <div class="col-md-{{ card_body_col }}">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                {% include no-linenos.html content=post.content %}
-                {{ content | markdownify | strip_html | truncate: 200 | escape }}
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                {% include datetime.html date=post.date lang=lang %}
-
-                <!-- categories -->
-                {% if post.categories.size > 0 %}
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    {% for category in post.categories %}
-                      {{ category }}
-                      {%- unless forloop.last -%},{%- endunless -%}
-                    {% endfor %}
-                  </span>
-                {% endif %}
-              </div>
-
-              {% if post.pin %}
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
-                </div>
-              {% endif %}
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  {% endfor %}
-</div>
-<!-- #post-list -->
-
-{% if paginator.total_pages > 1 %}
-  {% include post-paginator.html %}
+{% if site.theme_mode %}
+  {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
 {% endif %}
+
+<!-- `site.alt_lang` can specify a language different from the UI -->
+<html lang="{{ site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
+  {% include head.html %}
+
+  <body>
+    {% include sidebar.html lang=lang %}
+
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div class="container d-flex flex-column px-xxl-5">
+        {% include topbar.html lang=lang %}
+
+        <div class="row flex-grow-1">
+          <main aria-label="Main Content" class="col-12 col-lg-11 px-md-4">
+          <article class="px-1">
+                <div class="content">
+                    
+                    
+                    <div class="home-grid">
+                      <div class="home-column-top">
+                          <h1>Who</h1>
+                          <hr/>
+                          <div>
+                              <p>A (mostly software) engineering leader in Austin, Texas.
+                              Engineering is my main tool; my objectives are solving real-world problems.
+                              Ideally, I do it through building teams of individuals smarter than me so we can kicking ass together.</p>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="home-grid">
+                      <div class="home-column-bot">
+                        <h1>What</h1>
+                        <hr/>
+                        <div class="home-item">
+                          <h3 style="margin-top: 0;">Career Journey</h3>
+                          <p>Slinging Java at IBM, building 3 startups that didn't take off the way I hoped, developing custom full-stack tools using Python and React for a "Pixel" marketing firm, and leading globally distributed teams of exceptional engineers and managers at Homebase through gnarly initiatives.
+                        </div>
+                        <div class="home-item">
+                          <h3>Projects</h3>
+                          <p>Building a 1965 Shelby Cobra replica from scratch, hi-fi 100W audio vacuum tube amplifiers, figuring out how to allow Django to handle SSL and WebSocket traffic (before it was ASGI native) with a quick-and-dirty CI/CD in AWS, dipping my toes in statiscal analysis with TensorFlow.
+                        </div>
+                      </div>
+
+                      <div class="home-column-bot has-margin">
+                        <h1>Why</h1>
+                        <hr/>
+                        <div class="home-item">
+                          <p>Because life goes by in too quick of a blink and if we are not using all our talents to contribute into tomorrow, then what's the point?</p>
+                        </div>
+                        <div class="home-item">
+                          <h1>How?</h1>
+                          <hr/>
+                          <p>This website has a <a href='/handbook'>living document</a> on how I approach engineering and leadership. From hiring principles, detailed instructions for a fruitful interview process, how to handle trust building in high-performing teams, how to grow effective leaders, and approaches to code quality, leveraging documentation to unlock async-ness in a remote world, and measuring engineering success.</p>
+                        </div>
+                      </div>
+
+                      <div class="home-column-bot has-margin">
+                        <h1>Values & Credos</h1>
+                        <hr/>
+                        <div class="home-credo">
+                            <p>"Better in a team than solo"</p>
+                            <p>"Comfortable with being uncomfortable"</p>
+                            <p>"Never the expert, always the student"</p>
+                            <p>"If it's not a 'Fuck Yes', it's a 'Fuck No"</p>
+                            <p>"Vulnerability and trust"</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+          </main>
+
+          <div class="row">
+            {% include_cached footer.html lang=lang %}
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="mask"></div>
+
+    {% if site.pwa.enabled %}
+      {% include_cached notification.html lang=lang %}
+    {% endif %}
+
+    <!-- JavaScripts -->
+
+    {% include js-selector.html %}
+
+    {% if page.mermaid %}
+      {% include mermaid.html %}
+    {% endif %}
+
+  </body>
+</html>

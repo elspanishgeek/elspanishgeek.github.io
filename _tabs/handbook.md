@@ -17,7 +17,7 @@ panel_includes:
 
 I have terrible memory, so I make it a habit to jot down everything. This includes ideas I want to explore, crucial validated assumptions I can't afford to forget, and insightful nuggets I've come across from people smarter than myself. I then diligently store all this information in a searchable format. Instead of trying to boost my memory recall, I rely on the trusty `Ctrl/Cmd + F` shortcut to navigate to the relevant keywords I know will lead me to the information I seek. However, over the past 12 years, I've scattered these notes across numerous platforms and applications, forcing me to become my own makeshift SQL expert, performing manual JOIN operations to locate what I need.
 
-This handbook is a living document that keeps getting updating with all this valuable knowledge into one accessible location. It's my way of enabling quick keyword searches in one centralized place. I figured that if it helps me, it might just be useful for someone else too. 
+This handbook is a living document that keeps getting updated with all this valuable knowledge into one accessible location. It's my way of enabling quick keyword searches in one centralized place. I figured that if it helps me, it might just be useful for someone else too. 
 
 <hr/>
 

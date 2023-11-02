@@ -1,0 +1,125 @@
+---
+layout: compress
+---
+
+<!doctype html>
+
+{% include origin-type.html %}
+
+{% include lang.html %}
+
+{% if site.theme_mode %}
+  {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
+{% endif %}
+
+<!-- `site.alt_lang` can specify a language different from the UI -->
+<html lang="{{ site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
+  {% include head.html %}
+
+  <body>
+    {% include sidebar.html lang=lang %}
+
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div class="container d-flex flex-column px-xxl-5">
+        {% include topbar.html lang=lang %}
+
+        <div class="row flex-grow-1">
+          <main aria-label="Main Content" class="col-12 col-lg-11 px-md-4">
+          <article class="px-1">
+            <div class="content">
+              <div class='eng-wrapper'>
+                
+                <h1>Mechanical Engineering</h1>
+                <hr/>
+
+                <div class='eng-row'>
+                  <div class='eng-column'>
+                    {% include embed/linked-image.html url='https://i.imgur.com/8JDIgMPh.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/l4EtcDX.png' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/zwomzGTh.png' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/jjGAML3h.png' %}
+                    {% include embed/mp4.html url='https://i.imgur.com/ru0pbR4.mp4' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/UmigdsKh.jpg' %}
+                  </div>
+
+                  <div class='eng-column'>
+                    {% include embed/linked-image.html url='https://i.imgur.com/tSAkSHvh.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/Ni9ySmGh.png' %}
+                    {% include embed/mp4.html url='https://i.imgur.com/lqHHvJC.mp4' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/l71IOafh.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/dTjsUThh.jpg' %}
+                    {% include embed/mp4.html url='https://i.imgur.com/7OKA9wh.mp4' %}
+                  </div>
+
+                  <div class='eng-column'>
+                    {% include embed/mp4.html url='https://i.imgur.com/oj3RYsr.mp4' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/kXnRuf4h.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/kbRRN75h.jpg' %}
+                    {% include embed/mp4.html url='https://i.imgur.com/1kVqekk.mp4"' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/vtBgBthh.png' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/XVIzwz3h.jpg' %}
+                  </div>
+                </div>
+
+
+                <h1>Electrical Engineering</h1>
+                <hr/>
+
+                <div class='eng-row'>
+                  <div class='eng-column'>
+                    {% include embed/linked-image.html url='https://i.imgur.com/mx1IrWxh.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/aDyRGl5h.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/thqmT56.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/U0dtUR7.jpg' %}
+                  </div>
+
+                  <div class='eng-column'>
+                    {% include embed/linked-image.html url='https://i.imgur.com/HoNJ2zAh.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/Oia1a5n.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/R8YKPCbh.jpg' %}
+                  </div>
+
+                  <div class='eng-column'>
+                    {% include embed/linked-image.html url='https://i.imgur.com/nzZt4jSh.jpg' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/bLQEuwo.png' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/q54uYrT.png' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/0qTTUJK.png' %}
+                    {% include embed/linked-image.html url='https://i.imgur.com/SDkXvvZ.png' %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </article>
+          </main>
+
+          <div class="row">
+            {% include_cached footer.html lang=lang %}
+          </div>
+        </div>
+
+      </div>
+
+      <aside aria-label="Scroll to Top">
+        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </aside>
+    </div>
+
+    <div id="mask"></div>
+
+    {% if site.pwa.enabled %}
+      {% include_cached notification.html lang=lang %}
+    {% endif %}
+
+    <!-- JavaScripts -->
+
+    {% include js-selector.html %}
+
+    {% if page.mermaid %}
+      {% include mermaid.html %}
+    {% endif %}
+
+  </body>
+</html>
