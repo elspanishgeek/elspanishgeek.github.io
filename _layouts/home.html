@@ -41,7 +41,7 @@ layout: compress
                       </div>
                     </div>
 
-                    <div class="home-grid">
+                    <div class="home-grid" style="margin-bottom: 3rem;">
                       <div class="home-column bot">
                         <h1>What</h1>
                         <hr/>
@@ -62,7 +62,7 @@ layout: compress
                           <p>Because life goes by in too quick of a blink and if we are not using all our talents to contribute into tomorrow, then what's the point?</p>
                         </div>
                         <div class="home-item">
-                          <h1>How?</h1>
+                          <h1>How</h1>
                           <hr/>
                           <p>This website has a <a href='/handbook'>living document</a> on how I approach engineering and leadership. From hiring principles, detailed instructions for a fruitful interview process, how to handle trust building in high-performing teams, how to grow effective leaders, and approaches to code quality, leveraging documentation to unlock async-ness in a remote world, and measuring engineering success.</p>
                         </div>
@@ -84,7 +84,10 @@ layout: compress
           </main>
 
           <div class="row">
-            {% include_cached footer.html lang=lang %}
+            <!-- tail -->
+            <div id="tail-wrapper" class="col-12 col-lg-11 px-md-4">
+              {% include_cached footer.html lang=lang %}
+            </div>
           </div>
         </div>
 
