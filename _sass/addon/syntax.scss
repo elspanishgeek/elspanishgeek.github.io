@@ -10,6 +10,21 @@ html {
     &[data-mode='light'] {
       @include light-syntax;
     }
+
+    &[data-mode='dark'] {
+      @include light-syntax;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:not([data-mode]),
+    &[data-mode='dark'] {
+      @include light-syntax;
+    }
+
+    &[data-mode='light'] {
+      @include light-syntax;
+    }
   }
 }
 
