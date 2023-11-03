@@ -9,6 +9,7 @@
   --main-border-color: #f3f3f3;
 
   /* Common color */
+  --highlight-red: #db0000;
   --text-color: #34343c;
   --text-muted-color: #757575;
   --text-muted-hightlight-color: inherit;
@@ -43,7 +44,7 @@
   --sidebar-bg: #f6f8fa;
   --sidebar-border-color: #f3f3f3;
   --sidebar-muted-color: #545454;
-  --sidebar-active-color: #1d1d1d;
+  --sidebar-active-color: #db0000;
   --sidebar-hover-bg: rgb(231, 231, 231, 0.64);
   --sidebar-btn-bg: white;
   --sidebar-btn-color: #8e8e8e;
@@ -62,7 +63,7 @@
   --btn-paginator-hover-color: var(--sidebar-bg);
 
   /* Posts */
-  --toc-highlight: #c22d2d;
+  --toc-highlight: #db0000;
   --btn-share-hover-color: var(--link-color);
   --card-bg: white;
   --card-hovor-bg: #e2e2e2;
