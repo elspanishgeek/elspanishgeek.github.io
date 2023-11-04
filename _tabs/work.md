@@ -30,7 +30,7 @@ In the meantime, I've been busy completing the construction of a 1965 Shelby Cob
 
 **Responsibilities:**
   - Led a Billing Group for most of my tenure, responsible for the payment functionality, and then expanded to the Core App Group, responsible for the main feature set of the platform.
-  - Scaled a diverse and globally distributed group of 21 engineers, comprised of backend and frontend engineers, and an engineering manager.
+  - Responsible for a diverse and globally distributed group of 21 comprised of backend engineers, frontend engineers, and an engineering manager.
   - Performed as one of the primary hiring managers for the engineering department, conducting over 60 interviews of software engineers and engineering managers.
 
 **Highlights:**

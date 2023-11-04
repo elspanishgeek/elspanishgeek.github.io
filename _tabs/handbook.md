@@ -1419,28 +1419,141 @@ Alan Drexler and Sibbet, two well-renouned authors in Team Building, created the
 
 ## Effective Software Engineering
 
-It’s not coding. It’s the continuous team effort in designing, building, maintaining, and scaling, a software ecosystem that begins with a requirement and terminates at a utility for a user.
+Software engineering is not coding. It’s the continuous team effort in designing, building, maintaining, and scaling, a software ecosystem that begins with a requirement and terminates at a utility for a user.
+
+To know which one you are doing, ask yourself which of the following questions is the the most important in the context of what you are doing: *"Does it work?"* or *"Is it correct?"*.
+
+#### Guiding Principles
+
+- **Longevity:** For how long is it expected to work?
+- **Maintainability:** How many people will be responsible for supporting it during its life expectancy?
+- **Criticality:** What are the consequences if it fails?
+- **Reliability:** How dependable is it in not failing?
+- **Upgradability:** How likely is it that there is an evolution of use cases and will require updates?
+- **Efficiency:** How does it scale with increasing user load or data volume?
+- **Scalability:** How easily can it handle increased workloads or growing user bases?
+- **Security:** How is the integrity and data protected?
+- **Usability:** How user-friendly and intuitive is it for its intended audience?
+- **Simplicity:** How can it be developed in MVC-minded (minimum viable changes) iterations?
+- **Accessibility:** How well does it accommodate users with diverse abilities and disabilities?
+
+
+Just coding can be fun and left for a quick project, a one-time use script, a repetitive enough task that could be turned into simple tooling. However, for objectives that are not inconsequential or initiatives with impact, a more rigorous approach needs to be taken.
+
+Software engineer is also, by the above definition, a **team effort**, which means that different people each with specific knowledge will come together to achieve a goal. A good chunk of this handbook so far has been dedicated to how to build high-performance teams through trust and collaboration. However, the more technical aspect that needs to be covered is **documentation**.
+
+Another topic that spans enough books to fill the Library of Alexandria is software design. Once a decision has been made on the objectives the software must meet (**the what**), tackling the design is the next step (**the how**). A caveat needs to be made that depending on the answers to the guiding principles, the right design now might very well not be the right design later. Unfortunately, this often leads to premature optimization, which can have disastrous consequences.
+
 
 
 ### Quality
-Bug identification was measured using the corrective commit probability, the ratio of commits determined to be related to fixing bugs. The analysis showed that popular projects had a higher ratio of bug fixes (e.g., Google's popular projects had a 27% higher bug fix rate than Google's less popular projects). 
 
-Style Guides:
-Rules must:
-Pull their weight
-Optimize for the reader vs author
-Be consistent
-Avoid error-prone or surprising constructs
-Concede to practicalities
+***"If something is quality, it implies that there is nothing random about it"*** - [Nicole, Human Interface at Apple](https://developer.apple.com/videos/play/wwdc2018/801/?time=241)
 
-Types
-To avoid dangers
-To enforce best practices
-To ensure consistency
-Not the universal ones
+While the context of the quote is from an investigation by Apple into what makes great design, this was an answer to the broad question of "What is quality?". Software quality can mean various things, and it can become the subject of heated debate when people try to define it around how it can be measured; however, the true identifier of software having quality, is that nothing was left to chance. All the previous questions were considered and a decision was made for them. Something could "have quality" and not have ["six 9s availability"](https://en.wikipedia.org/wiki/High_availability#Percentage_calculation) because its operational domain doesn't require it. The critical step is that, it was considered, a decision was made, trade-offs accepted, and nothing was left to chance.
+
+Following this definition, then the approach to guarantee high-quality software means every action and behavior that allows the software to deliver on the questions presented in the Guiding Principles. Said another way, **does this piece of code deliver on its promise or is some of it random?**. 
+
+Following the approach of ["shift-left testing"](https://en.wikipedia.org/wiki/Shift-left_testing) and the mindset of "test early and often", this promise can be verified at different stages in the software development lifecycle (SDLC) through different mechanisms, which in turn have their own ranges of relevance in the SDLC and costs. Here's a (perhaps convoluted) way of visualizing it:
+
+<br>
+
+![Desktop View](/assets/img/quality_curve_2.png){: width="800" }
+_Relative costs to fix an issue vs. time of detection vs. detection methods by cost and applicability range_
 
 
-#### Testing
+#### Detection Mechanisms
+
+- **Knowledge Sharing:** The earliest form of verification, before any code is written, a piece of software is just an idea or a design, but problems can still be found by ways of bringing knowledge to the table that could identify them. There are two basic forms:
+  - Documentation: Unless you are in the cutting edge of technology, someone already solved a similar problem. If this knowledge was recorded, then someone can consume it and by themselves find issues in their idea or design.
+  - Design Reviews: Bringing the knowledge sharing to a time-bound activity. Can be async or synchronously. 
+
+- **Static Analysis:** Leveraging tools right in the development process when code is being written. Depending on the quality of the tools, this method can detect everything from syntax errors to security vulnerabilities, performance issues, and other problems that could affect the Guiding Principles.
+
+- **Code Reviews:** Code has been written and now other developers get involved to identify potential bugs. Logic errors, design flaws are found here and based on some edge case analysis, entire implementations can be scrapped.
+
+- **Testing:** The most obvious approach, a post-fact verification with a controlled set of inputs matching the corresponding outputs. Requires code to be partially or fully completed and can either be done manually or automated.
+  - Manual: From proof of concept validation while the development is happening, all the way to exploratory and chaos testing once it has been released to production.
+  - Automatic: From unit testing, to integration testing, and acceptance and end-to-end testing.
+
+- **Monitoring:** After the software is released, continuous data collection and analysis during its operation can help identify any issues experienced by users.
+
+
+
+
+### Documentation
+
+***“When I wrote it, only God and I knew the meaning; now God alone knows”*** - Johann Paul Friedrich Richter, 1826
+
+Ask yourself the following questions:
+
+1. Have you ever complained about the lack of details, context, background, when working on something?
+2. How much code have you written?
+3. How much documentation have you written?
+4. How many times you've said *"I'll write it later"*?
+5. How many times have you found the time?
+6. How many times have you forgotten about the details when you found the time?
+
+People forget things, it is normal. Having a disciplined approach to recording valuable information as close to its moment of origin, will pay compounding dividends as team members leave or circumstances change, the organization retains critical information about its software systems. Documentation is almost as valuable as testing, but it has a delayed value effect and the immediate benefit is not for the person doing the most work, the author, but for the consumers.
+
+Documentation comes in a variety of flavors, but it can be classified into main categories based on its main objective.
+
+| Type | Example | Purpose |
+|---|---|---|
+| Technical | Code comments and code itself,<br>API docs, technical specifications | To detail how the software works  |
+| Educational | Tutorials, usage guides, <br>training materials | To teach how to use the software |
+| Reference | Cheat sheets, reference manuals | To allow for quick information finding |
+| Design and <br>Architecture | System architecture diagrams, <br>design patterns, data models | To explain design and patterns<br>about the software |
+| Operational and <br>Maintenance | Operations manuals, <br>runbooks, escalation policies | To define and maintainability procedures, <br>and maintenance tasks |
+| Quality <br>Assurance | Test plans, bug reports,<br>test reports | To define the plan and execution of testing activities, <br>and track and manage defects |
+| Legal and <br>Compliance | Privacy policies, <br>terms of service | To state the regulatory requirements <br>the software must comply with |
+| Project <br>Management | Project plans, Gantt charts, <br>status reports | To manage software projects, track progress, <br>and communicate with stakeholders |
+| Release | Release notes, changelogs | To explain changes made to software in a new release, <br>summarize new features and functionality |
+
+A lot of documentation becomes a mess or gets abandoned mid-way because it tries to be too many things for too many different people. When recording documentation, it's important to consider the core characteristics of the indended audience.
+
+- **Experience Level:** Experts or novices
+  - Experts can lose interest with many redundant background-providing explanations.
+  - Novices keep up more easily with explanations on each step.
+
+- **Domain Knowledge:** Specialists (deep) or generalists (shallow).
+  - Specialists are more interested when the documentation provides something novel to them.
+  - Generalists tend to learn more rapidly when using analogies about similar topics.
+
+- **Discoverability Intention:** Seekers or stumblers
+  - Seekers know what they want and need. Ease of search should be the focus.
+  - Stumblers don't know what they are looking for.  Clear summaries should be the focus.
+
+The best practice for a successful [knowledge sharing culture](#knowledge-sharing) in a software organization is: **to treat documentation as code**. This means:
+
+- It follows writing guidelines
+- It gets reviewed for consistency, clarity, and accuracy before publishing
+- It resides in source control 
+- It has clear ownership
+- It is routinely maintained and upgraded
+- It has issues opened against it, which are tracked, tested, and resolved
+- It is monitored for up to date relevancy
+
+
+#### Visualizations
+
+***"Use a picture. It's worth a thousand words."*** - Arthur Brisbane, public relations expert who coached Ford, Edison, and Rockefeller.
+
+Consider the following visualizations to enhance your documentation:
+
+| Visualization | Information communicated | Main usage |
+|---|---|---|
+| [UML class diagrams](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/#uml-class-diagram-order-system) | Relationships between classes, <br>inheritance hierarchy, <br>attributes and methods of classes | Designing and documenting <br>the structure of a software system |
+| Dependency graphs | Dependencies between <br>software components | Identifying potential bottlenecks in a software system <br>and ensuring that all dependencies are met |
+| Sequence diagrams | Sequence of interactions <br>between objects in a system | Documenting the behavior of a software system under <br>different conditions and identifying potential concurrency problems |
+| State diagrams | States that an object can be in and <br>the transitions between those states | Documenting the behavior of an object under <br>different conditions and identifying potential race conditions |
+| Entity-relationship <br>diagrams (ERDs) | Data entities in a system and <br>their relationships to each other | Designing and documenting databases and ensuring that the data model <br>is consistent with the system's requirements |
+| Call and data flow<br>diagrams | Flow of data and control <br>through a system | Designing and documenting the architecture of a software system <br>and identifying potential bottlenecks |
+| Network diagrams | Physical and logical <br>topology of a network | Designing and troubleshooting networks |
+
+
+
+### Testing
 Testing is the core action to guarantee quality. It is preventative medicine and diagnostic medicine at the same time. Every organization and team says they are quality focused and pay attention to their testing, but for many, as soon as the testing gets in the way of “delivery”, then it becomes clear that it was a second class citizen all along.
 
 To guarantee that testing is as important as delivering, the organization needs to be ruthless in maintaining a healthy test environment. The alternative can actually be worse than having no testing at all. **Slow test suites = Engineers working around the tests.**
@@ -1518,6 +1631,60 @@ Summarized table from the [Large Testing chapter](https://abseil.io/resources/sw
 | Probers and Canary | Production env | Production | Delta from baseline |
 | Chaos Engineering | Production env | Production | Manual |
 | User Evaluation | Production env | Production | Manual |
+
+
+
+
+1. The problem is well understood
+2. So all the relevant questions can be answered
+3. 
+
+Bug identification was measured using the corrective commit probability, the ratio of commits determined to be related to fixing bugs. The analysis showed that popular projects had a higher ratio of bug fixes (e.g., Google's popular projects had a 27% higher bug fix rate than Google's less popular projects). 
+
+Style Guides:
+Rules must:
+Pull their weight
+Optimize for the reader vs author
+Be consistent
+Avoid error-prone or surprising constructs
+Concede to practicalities
+
+Types
+To avoid dangers
+To enforce best practices
+To ensure consistency
+Not the universal ones
+
+
+
+## References
+
+As stated at the beginning, this book is an amalgamation of my own practices, principles, and opinions, with others I've learned from others. Where applicable, I link directly to the source material that I'm either directly referencing or paraphrasing. However, there may be places where I took note once and didn't record the origin. So, here's a list of books, blogs, articles, pages, videos, and more, that I've consumed in my career and have in one way or another informed and shaped my approach to software engineering, leadership, and engineering leadership. In no particular order:
+
+- Built to Last
+- SWE at Google
+- The Mythical Man-Month - Fred Brooks
+- Peopleware: Productive Projects and Teams - DeMarco, Lister
+- Leaders Eat Last - Simon Sink
+- Drive: The Surprising Truth about what motivates us - Dan Pink
+- Thinking Fast and Slow
+- The 15 Commitments of Concious Leadership - Diana Chapman
+- Nonviolent Communication: A Language - Marshall Rosenberg
+- Who - Geoff Smart
+- Principles: Life and Work - Ray Dalio
+- Getting things Done - David Allen
+- One Minute Manager - Ken Blanchard
+- High Output Management - Andy Grove
+- The Hard Things about Hard Things - Ben Horowitz
+- Disciplined Entrepreneurship - Bill Aulet
+- Never Split the Difference - Chris Voss
+- The Courage to be Disliked - Ichiro Kishimi and Fumitake Koga
+- The Great CEO Within - Matt Mochary and Alex MacCaw
+- Crucial Conversations - Kerry Patterson
+- Principles: Life and Work
+- Super Thinking: The Big Book of Mental Models
+- https://martinfowler.com/
+
 
 
 
