@@ -2165,7 +2165,7 @@ However, there is a delicate balance on when to pursue any of these optimization
 As stated at the beginning, this book is an amalgamation of my own practices, principles, and opinions, with others I've learned from others. Where applicable, I link directly to the source material that I'm either directly referencing or paraphrasing. However, there may be places where I took note once and didn't record the origin. So, here's a list of books, blogs, articles, pages, videos, and more, that I've consumed in my career and have in one way or another informed and shaped my approach to software engineering, leadership, and engineering leadership. In no particular order:
 
 - Built to Last
-- SWE at Google
+- Software Engineering at Google - Tom Manshreck & Hyrum Wright
 - The Mythical Man-Month - Fred Brooks
 - Peopleware: Productive Projects and Teams - DeMarco, Lister
 - Leaders Eat Last - Simon Sink
@@ -2187,6 +2187,8 @@ As stated at the beginning, this book is an amalgamation of my own practices, pr
 - Principles: Life and Work
 - Super Thinking: The Big Book of Mental Models
 - https://martinfowler.com/
+- https://handbook.gitlab.com/
+- https://themanagershandbook.com/
 
 
 
