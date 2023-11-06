@@ -15,9 +15,9 @@ panel_includes:
 
 ## What is this?
 
-I have terrible memory, so I make it a habit to jot down everything. This includes ideas I want to explore, crucial validated assumptions I can't afford to forget, and insightful nuggets I've come across from people smarter than myself. I then diligently store all this information in a searchable format. Instead of trying to boost my memory recall, I rely on the trusty `Ctrl/Cmd + F` shortcut to navigate to the relevant keywords I know will lead me to the information I seek. However, over the past 12 years, I've scattered these notes across numerous platforms and applications, forcing me to become my own makeshift SQL expert, performing manual JOIN operations to locate what I need.
+I have terrible memory, so I make it a habit to jot down everything. This includes ideas I want to explore, I ideas I've validated and can't afford to forget, and insightful concepts, explanations, and nuggets of wisdom I've come across from people smarter than myself. I then diligently store all this information in a searchable format. Instead of trying to boost my memory recall, I rely on the trusty `Ctrl/Cmd + F` shortcut to quickly find what I'm looking for. However, over the past 12 years, I've scattered these notes across numerous platforms and applications, forcing me to become my own makeshift SQL expert, performing manual JOIN operations to locate what I need.
 
-This handbook is a living document that keeps getting updated with all this valuable knowledge into one accessible location. It's my way of enabling quick keyword searches in one centralized place. I figured that if it helps me, it might just be useful for someone else too. 
+The goal of this handbook is to act as a living document that keeps me honest and organized by forcing me to continue to update it in one accessible location. Also, I figured that if it helps me, it might just be useful for someone else too. 
 
 <hr/>
 
@@ -26,41 +26,38 @@ This handbook is a living document that keeps getting updated with all this valu
 A software engineering organization, in its simplest definition, represents a collective of software engineers assembled and coordinated to deliver valuable, functional solutions for a shared purpose. Constructing software engineering solutions is intricate, but the exercise of organizing humans to achieve a common is an even greater challenge. This challenge becomes even more complex with the growth of the team in the pursuit more ambitious objectives. The effective organization is the one that successfully manages to pull off this intricate orchestration at every stage during its existence.
 
 An effective organization is like an explorer ship:
-Has a North Star that illuminates a distinct and clear purpose
-Operates with an unyielding set of values and guiding principles to survive rough waters
-Leverages a strategy as a map, which updates along its journey
-Defines and follows policies, processes, and structures that support their quest
-Continuously measures and verifies their position in their journey
-Uses tools on every aspect of their voyage, from navigation to preventing mutiny
+
+- Has a North Star that illuminates a distinct and clear purpose.
+- Operates with an unyielding set of values and guiding principles to survive rough waters.
+- Leverages a strategy as a map, which updates along its journey.
+- Defines and follows policies, processes, and structures that support their quest.
+- Continuously measures and verifies their position in their journey.
+- Uses tools on every aspect of their voyage, from navigation to preventing mutiny.
 
 In more traditional corporate language, an organization must have:
 
-- Mision: What it does
-- Vision: What it aspires
-- Purpose: Why it does it
-- Values: How it does it (philosophically)
-- Strategy: The plan to achieve it
-- Processes: How it does it (operationally)
-- Policies: Rules to follow there
-- Structures: How it organizes itself
-- Tools: What it does it with
-- Examination/Scrutiny/Inspection: How it measures it is on the right track
-
+- **Mision:** What it does
+- **Vision:** What it aspires
+- **Purpose:** Why it does it
+- **Values:** How it does it (philosophically)
+- **Strategy:** The plan to achieve it
+- **Processes:** How it does it (operationally)
+- **Policies:** Rules to follow there
+- **Structures:** How it organizes itself
+- **Tools:** What it does it with
+- **Introspection:** How it measures it is on the right track
 
 
 
 ### Mission, Vision, and Purpose
 
 Mission, vision, and purpose are three important concepts that define an organization. They are often used interchangeably, but they have subtle differences.
-Mission is what the organization does and whom it serves. It is the organization's reason for being. For example, the mission of Google is to "organize the world's information and make it universally accessible and useful."
-Vision is what the organization wants to achieve in the future. It is a long-term goal that inspires and motivates the organization. For example, the vision of Google is to "be the most trusted information organizer and make it universally accessible and useful."
-Purpose is why the organization exists. It is the organization's core values and beliefs. It is what drives the organization to achieve its mission and vision. For example, the purpose of Google is to "make the world better by organizing the world's information and making it universally accessible and useful."
-All three concepts are important for success. The mission provides focus and direction. The vision inspires and motivates. The purpose provides meaning and value.
 
-- Mission is the compass that guides the organization.
-- Vision is the lighthouse that the organization is sailing towards.
-- Purpose is the fuel that keeps the organization moving forward.
+- **Mission** is what the organization does and whom it serves. It is the organization's reason for being.<br>
 
+- **Vision** is what the organization wants to achieve in the future. It is a long-term goal that inspires and motivates the organization.<br>
+
+- **Purpose** is why the organization exists. It is the organization's core values and beliefs. It is what drives the organization to achieve its mission and vision.
 
 
 
@@ -87,7 +84,7 @@ The following are the 8 values that I align with written in different styles. Fi
 
 
 ### Strategy
-*"Engineering strategy is the discipline of making decisions about how to best use engineering resources to achieve a particular set of goals."* - Will Larson, Google Staff Engineer
+***"Engineering strategy is the discipline of making decisions about how to best use engineering resources to achieve a particular set of goals."*** - Will Larson, Google Staff Engineer
 
 A strategy is a roadmap for how the organization will achieve its goals, making the best use of its technical capabilities and taking into account its resources, and the competitive landscape.
 
@@ -101,21 +98,18 @@ A lasting strategy (e.g.: one that is not re-written every quarter) should be de
 Reviewing and updating your organization's mission, vision, and strategy should be an ongoing process. You should regularly review them to make sure that they are still aligned with the needs of your organization and your stakeholders. The cadence will depend on the size and complexity of your organization and the industry that you serve.  Typical cadence for software engineering organizations is 1 to 3 years.
 
 **Best Practices:**
-- Shouldn’t require mandating. Successful ideas spread
-- Should feel they were chosen because they were the best option
-- Should generate excitement
+- Shouldn’t require mandating. Successful ideas spread.
+- Should feel they were chosen because they were the best option.
+- Should generate excitement.
+- Should be defined around activities that influence results.
 
 **[Results Based Management (RBM)](https://en.wikipedia.org/wiki/Results-based_management)** is a management approach that focuses on achieving results rather than just following processes. It's like aiming for the finish line instead of just running around the track. With RBM, you set clear goals, measure your progress, and make adjustments as needed to ensure you're on track to achieve those goals. It's all about getting things done and making a real impact.
 
-- Outputs: What the organization puts out
-- Outcomes: The effect the output causes on consumers
-- Impact: The effect the outcome causes on our goals
+- **Outputs:** What the organization puts out.
+- **Outcomes:** The effect the output causes on consumers.
+- **Impact:** The effect the outcome causes on our goals.
 
-Success is consumers are winning
-Payoff is producers are winning
-
-*"Results-based management is the only way to run a successful software company. We need to focus on delivering value to our customers, not just following processes."* - Bill Gates, former CEO of Microsoft
-
+***"Results-based management is the only way to run a successful software company. We need to focus on delivering value to our customers, not just following processes."*** - Bill Gates, former CEO of Microsoft
 
 
 
@@ -123,28 +117,28 @@ Payoff is producers are winning
 ### Staging
 Recognizing the right time for the right actions is crucial for achieving success. You might have all the right elements—people, tools, strategies—but if they aren't utilized appropriately for the stage you're in, it can lead to catastrophic results. [The Saturn V rocket](https://en.wikipedia.org/wiki/Saturn_V#Description) (so far the only vehicle to carry humans beyond Low Earth Orbit) had 3 distinct stages in its launch procedure. Had all stages fired simultaneously, we wouldn't have been able to put 24 astronauts on the moon.
 
-To achieve success, your actions and behaviors must align with the specific stage you find yourself in. [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)'s 3X Model provides a practical framework for experimenting and innovating, breaking down the complex journey of "[Product Develpment Triathlon](https://medium.com/@kentbeck_7670/the-product-development-triathlon-6464e2763c46)" into three distinct stages:
+To achieve success, your actions and behaviors must align with the specific stage you find yourself in. [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)'s 3X Model provides a practical framework for experimenting and innovating, breaking down the complex journey of ["Product Develpment Triathlon"](https://medium.com/@kentbeck_7670/the-product-development-triathlon-6464e2763c46) into three distinct stages:
 
-1. **Explore:**
-- Tools: Iteration, testing, and experimentation. 
-- Environment: Uncertain, but adaptable
-- Enemy: Risk.
-- Goal: Disrupt inertia, combat disinterest, and discover a market fit.
-- Activities: Maintain minimal costs, be cautious of local maxima (experiment success that won't scale), and make choices that minimize the risk of change. Prioritize high iteration speed, low infrastructure costs, and flexibility for pivoting or scaling.
+1. #### Explore
+- **Tools:** Iteration, testing, and experimentation. 
+- **Environment:** Uncertain, but adaptable
+- **Enemy:** Risk.
+- **Goal:** Disrupt inertia, combat disinterest, and discover a market fit.
+- **Activities:** Maintain minimal costs, be cautious of local maxima (experiment success that won't scale), and make choices that minimize the risk of change. Prioritize high iteration speed, low infrastructure costs, and flexibility for pivoting or scaling.
 
-2. **Expand:**
-- Tools: Discipline and measurements.
-- Environment: Awkward, but experiencing growth
-- Enemy: Bottlenecks
-- Goal: Identify the key rate-limiting resource, design structures and processes that will allow it to scale
-- Activities: Seek sustainable growth and early proof on how you could optimize without going “full send”. Remove blockages, solve infrastructure challenges. In case went hard on Paul Graham’s “[Do Things that Don’t Scale](http://paulgraham.com/ds.html)”, during the “Explore” stage, figure out how to achieve the same results with things that do scale
+2. #### Expand
+- **Tools:** Discipline and measurements.
+- **Environment:** Awkward, but experiencing growth.
+- **Enemy:** Bottlenecks.
+- **Goal**: Identify the key rate-limiting resource, design structures and processes that will allow it to scale.
+- **Activities**: Seek sustainable growth and early proof on how you could optimize without fully commiting. Remove blockages, solve infrastructure challenges. In case you applied Paul Graham’s ["Do Things that Don’t Scale"](http://paulgraham.com/ds.html) during the “Explore” stage, figure out how to achieve the same results with actions that do scale.
 
-3. **Extract:**
-- Tools: Specialization, and optimization.
-- Environment: Stable, but change is risky.
-- Enemy: Inefficiency.
-- Goal: Fine-tune your system without compromising quality.
-- Activities: Optimize your “[Replicators](https://en.wikipedia.org/wiki/Replicator_(Star_Trek))” to achieve maximum output with minimal input. Focus on cost reduction, margin expansion, and the application of economies of scale, to deliver your product or service at peak efficiency (low cost, high quality).
+3. #### Extract
+- **Tools**: Specialization, and optimization.
+- **Environment**: Stable, but change is risky.
+- **Enemy**: Inefficiency.
+- **Goal**: Fine-tune your system without compromising quality.
+- **Activities:** Optimize your “[Replicators](https://en.wikipedia.org/wiki/Replicator_(Star_Trek))” to achieve maximum output with minimal input. Focus on cost reduction, margin expansion, and the application of economies of scale, to deliver your product or service at peak efficiency (low cost, high quality).
 
 Navigating this triathlon, or any triathlon for that matter, presents a unique challenge. Each phase demands its own set of tools, expertise, and measurement systems. A bicycle won't serve you well in the water, becoming a faster runner doesn't automatically make you a faster swimmer, and the way you measure progress shifts from miles per hour on a bike to seconds per 100 meters in the water. Moreover, these phases are distinct and don't overlap; just as you wouldn't attempt to swim with running shoes, the critical moments occur at the end and beginning of each phase as you establish your rhythm and during the transitions between them.
 
@@ -157,11 +151,11 @@ _Kent Beck's 3X visualized by Talia @sketchimgSM_
 ### Goals
 Having the appropriate goals that align with the scope, context, and stage can motivate a team to incredible success. Conversely, misaligned and overly ambitious goals lead to frustrating conflicts and failures. Several popular acronymized frameworks aim to help with setting, tracking, and achieving goals:
 
-- SMART: Specific, Measurable, Achievable, Relevant, and Time-bound. It emphasizes setting goals that are clear, quantifiable, realistic, and time-constrained.
-- OKR: Objectives and Key Results
-- BHAG: Big Hairy Audacious Goals from “Built to Last” by Jim Collins
-- 4DX: 4 Disciplines of Execution by Covey, the author of “7 Habits of Highly Effective People”
-- GSM: [Goals, Signals, and Metrics](https://abseil.io/resources/swe-book/html/ch07.html) from Google
+- **SMART**: Specific, Measurable, Achievable, Relevant, and Time-bound. It emphasizes setting goals that are clear, quantifiable, realistic, and time-constrained.
+- **OKR**: Objectives and Key Results
+- **BHAG**: Big Hairy Audacious Goals from “Built to Last” by Jim Collins
+- **4DX**: 4 Disciplines of Execution by Covey, the author of “7 Habits of Highly Effective People”
+- **GSM**: [Goals, Signals, and Metrics](https://abseil.io/resources/swe-book/html/ch07.html) from Google
 
 While these frameworks are valuable tools, a great tool for the wrong job builds nothing. A goal can be an ambitious vision, a clear mission, a focused business objective, and even a specific target. They all share a common element: a definition of "done" or "success." To understand the nuances, it helps to analyze the scope of the goal, whether it's a grand aspiration or a specific task.
 
@@ -174,20 +168,15 @@ The mix of terminologies surrounding this subject can get confusing: goals, obje
 
 This is a table I created a long time ago to help me work through the terminology:
 
-| Scope | Label | Specific | (Directly)<br>Measurable | Achievable | Relevant | Time-Bound | Deliverable | Iterable |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Grand | Moonshot |  |  |  |  |  |  |  |
-| Large | Audacious |  |  |  |  |  |  |  |
-| Medium | Achievable |  |  |  |  |  |  |  |
-| Small | Milestone |  |  |  |  |  |  |  |
+![Desktop View](/assets/img/goals_table.png){: width="600"}
 
 This decomposition extends the SMART model to analyze various types of goals. Technically, every goal is measurable in the sense that it should have a defined criterion for success. However, the term 'directly measurable' implies a different level of clarity. Let's consider the distinction between having a broad goal like 'being healthy' and a more specific one like 'maintaining a body temperature of 99°F for 99% of the year.' Furthermore, the ability to control or deliver a goal distinguishes it from being an objective or a target. While you can't directly control your body temperature, you can control how often you work out or manage your calorie intake during the week.
 
 The following is my adaptation of Google's GSM process with OKRs for creating “Nested OKRs” or “MOKRs” (Moonshot OKRs). I've found this approach to be highly effective for consistently developing , as it helps guard against the 'streetlight effect' of only focusing on what's immediately visible, thereby reducing the risk of setting misaligned goals and unattainable targets:
 
-- Goal: This represents the desired outcome, typically at a high level and devoid of technical specifics.
-- Signal: These are the objectives you'd like to measure, although you can't directly control them.
-- (Actionable) Targets: These are the specific deliverables you can both measure and directly influence.
+- **Goal:** This represents the desired outcome, typically at a high level and devoid of technical specifics.
+- **Signal:** These are the objectives you'd like to measure, although you can't directly control them.
+- **(Actionable) Targets:** These are the specific deliverables you can both measure and directly influence.
 
 This model enables you to quickly assess whether you're on the right track and, if not, why you might be falling short. Your "Actionable Targets" should be executed in parallel and break down into deliverable milestones. They should be designed such that, based on a set of validated assumptions, each has the capacity to drive the signal in the desired direction.
 
@@ -228,7 +217,7 @@ Note that even the Actionable Targets can be further decomposed into milestones.
 ## Effective Growth
 Companies, divisions, departments, all operate an exists on a transient state. The organization that resists change, or doesn’t seek it, is one that at best, is not destined for greatness, and at worst doomed to failed sooner rather than later. Constant evolution and change is literally baked into the fabric of our reality (2nd Law of Thermodynamics). However, unbounded growth is cancer. It is in the transition between one stage to another where an organization is most at risk of introducing cracks in its foundations. The key characteristic of any successful enterprise is the effective handling of its growth and scaling journey.  
 
-*“The efficient organization has sub-linear resource cost growth as it increases in scale.”*
+***“The efficient organization has sub-linear resource cost growth as it increases in scale.”***
 
 Unfortunately, the answers to this problem are very specific to each organization. Yet, there are a number of practices that if implemented correctly, can unlock teams and leaders to scale effectively:
 
@@ -244,8 +233,8 @@ Unfortunately, the answers to this problem are very specific to each organizatio
 ### Satisficing
 Getting distracted is not just procrastinating on social media, it’s losing focus on your main quest and chasing side ones. This can mainly happen due to two behaviors:
 
-1. Not measuring the correct thing
-2. Not being comfortable with saying “good enough”
+1. Not measuring the correct thing.
+2. Not being comfortable with saying “good enough”.
 
 ![Desktop View](/assets/img/satisficing.png)
 _https://modelthinkers.com/mental-model/satisficing_
@@ -265,9 +254,9 @@ Alignment involves several key elements:
 
 This practice can take many shapes depending on the situation. Here are a couple examples:
 
-- When defining team goals and metrics: Imagine an e-commerce platform with a team responsible for the Billing process. If they define the team's goals to be around story points, velocity, or the number of features, they will get teams focused on churning out code without regard for quality, customer satisfaction, or collaboration. They will maximize metrics they are being measured against. Instead, consider if, in the case of that Billing team, some of their metrics were: dollars unrealized during the checkout experience and customer support calls regarding issues in the billing process. Now, this team is aligned to maximize quality and customer satisfaction. It's not about code for the sake of code, but about what features or optimizations will streamline the checkout process in such a way that more purchases are completed (fewer bugs, less friction in the funnel) and in a way that leaves customers happy and satisfied (fewer frustrated calls).
+- **When defining team goals and metrics:** Imagine an e-commerce platform with a team responsible for the Billing process. If they define the team's goals to be around story points, velocity, or the number of features, they will get teams focused on churning out code without regard for quality, customer satisfaction, or collaboration. They will maximize metrics they are being measured against. Instead, consider if, in the case of that Billing team, some of their metrics were: dollars unrealized during the checkout experience and customer support calls regarding issues in the billing process. Now, this team is aligned to maximize quality and customer satisfaction. It's not about code for the sake of code, but about what features or optimizations will streamline the checkout process in such a way that more purchases are completed (fewer bugs, less friction in the funnel) and in a way that leaves customers happy and satisfied (fewer frustrated calls).
 
-- When defining organizational policies: An engineering department may establish a minimum code coverage requirement. At a simple glance, it's a policy to motivate and incentivize quality through the quantity of testing. However, it disregards the quality of the testing and the impact that maximizing this one metric could have on the time to complete testing and deploy code. This policy is missing alignment with the complete goals for the department, namely deploy time. Conversely, if the policy focuses on "efficient, high-quality testing," it could track the rate of bugs reported in production alongside the time to complete a deploy. This empowers engineers to keep only a specific suite of high-signaling-error-rate tests. It also opens the door to creative solutions to the problem, perhaps with parallel running of tests. However, this would likely have an impact on infrastructure costs, presenting another opportunity to enhance alignment if there is a tight budget.
+- **When defining organizational policies:** An engineering department may establish a minimum code coverage requirement. At a simple glance, it's a policy to motivate and incentivize quality through the quantity of testing. However, it disregards the quality of the testing and the impact that maximizing this one metric could have on the time to complete testing and deploy code. This policy is missing alignment with the complete goals for the department, namely deploy time. Conversely, if the policy focuses on "efficient, high-quality testing," it could track the rate of bugs reported in production alongside the time to complete a deploy. This empowers engineers to keep only a specific suite of high-signaling-error-rate tests. It also opens the door to creative solutions to the problem, perhaps with parallel running of tests. However, this would likely have an impact on infrastructure costs, presenting another opportunity to enhance alignment if there is a tight budget.
 
 The important consideration is that there's no one perfect solution in the practice of aligning. The critical factor is always to consider the breadth, scope, lateral impact, and the potential unintended consequences now and in the future.
 
@@ -283,7 +272,7 @@ It's critical not to reward relationships. If people perceive that advancement i
 
 Recognize and reward both outcomes and efforts. Neglecting to acknowledge efforts can lead to team burnout. Keep in mind that efforts and results are interrelated, and recognizing both helps maintain a balanced and motivated workforce.
 
-Moreover, don't rely solely on extrinsic motivators. Instead, remove barriers and provide opportunities for individuals to self-motivate with the [three intrinsic motivators](https://www.youtube.com/watch?v=u6XAPnuFjJc:
+Moreover, don't rely solely on extrinsic motivators. Instead, remove barriers and provide opportunities for individuals to self-motivate with the [three intrinsic motivators](https://www.youtube.com/watch?v=u6XAPnuFjJc):
 
 - **Mastery:** The desire to improve and excel.
 - **Autonomy:** The desire for independence and self-direction.
@@ -353,14 +342,14 @@ The first column in your board should always be “To Classify”.This is your i
 
 2. Process
 Before you start every week and at the end of every day, you will go through your “To Classify” column and determine a course of action:
-- If it’s not towards an immediate goal:
+- If not towards an immediate goal:
   - Mark it as “Future”
-- If it’s useless:
+- If useless:
   - Mark it as “Trash” and keep notes as to why
-- If it’s a “you” task:
+- If a “you” task:
   - If you can get it done immediately, do so and mark it “Done”
-  - Otherwise, assign it to the respective it goal with priority and deadline/date
-- If it’s a “delegate” task:
+  - Otherwise, assign it to the respective goal with priority and deadline/date
+- If a “delegate” task:
   - If you can delegate immediately, do so and mark it “Done” or “Follow Up”
   - Otherwise, assign it to the respective goal with priority and deadline/date
 
@@ -848,7 +837,7 @@ Review 30-60-90 Day Plan.docx for an example template.
 
 
 ### Measuring
-Unfortunately, while hiring is one of the (if not the) most influential and critical action for your organization, little is done to measure, learn, and improve it. Understandably, the way you refine or improve any process, is by measuring successes and failures. In this case, we have an asymmetrical access to the data, we know the performance of the people hired but we don’t know the performance of the people passed on.
+Unfortunately, while hiring is one of the (if not the) most influential and critical action for your organization, little is done to measure, learn, and improve it. Understandably, the way you refine or improve any process, is by measuring successes and failures. In this case, we have an asymmetrical access to the data, we know the performance of the people hired but we don’t know the performance of the people passed on.<br>
 
 What can be improved or what does it mean to improve hiring? It means to improve the hiring process such that it:
 
@@ -943,7 +932,7 @@ This is by no means an all-encompassing list of all activities and behaviors of 
 
 
 ### Leading Engineers
-There is a vast body of research, literature, and teachings on the subject of leadership. Particularly, of individuals with specialized skills and knowledge that, ideally, exceeds yours. Combined with the never-ending need to coalesce multiple groups of talents to pursue a common goal, it can become an exercise in futility to only lead what you are an expert on. 
+There is a vast body of research, literature, and teachings on the subject of leadership. Particularly, of individuals with specialized skills and knowledge that, ideally, exceeds yours. Combined with the never-ending need to coalesce multiple groups of talents to pursue a common goal, it can become an exercise in futility to only lead what you are an expert on.
 
 **Leading is not:**
 - A reward for knowing how to do something better than others
@@ -961,7 +950,7 @@ More importantly, why is it needed at all? Engineers are clearly smart, can’t 
 ![Desktop View](/assets/img/leadership_clutch.png)
 _https://learndriving.tips/learning-to-drive/how-to-change-gear-in-manual-car/how-manual-car-gears-work/_
 
-A transmission has multiple gears, each facilitating the optimal distribution of power to the wheels through a clever combination of gear ratios. The presence of a clutch allows for the imperfect action of shifting gears while the engine spins at thousands of revolutions per minute. However, for each gear at rotating at a specific wheel speed, there's a corresponding engine velocity (RPM) at which you can shift without a clutch. This is very challenging and risky, and a slight misstep can result in gear grinding and damage to the transmission. The clutch bridges the gap, allowing the engine and transmission to operate independently, yet harmoniously. A (good) leader performs the same function. They do not meddle with the engine or the transmission; instead, they enable each component to perform at its best.
+A transmission has multiple gears, each facilitating the optimal distribution of power to the wheels through a clever combination of gear ratios. The presence of a clutch allows for the imperfect action of shifting gears while the engine spins at thousands of revolutions per minute. However, for each gear at rotating at a specific wheel speed, there's a corresponding engine velocity (RPM) at which you can shift without a clutch. This is very challenging and risky, and a slight misstep can result in gear grinding and damage to the transmission. The clutch bridges the gap, allowing the engine and transmission to operate independently, yet harmoniously. A (good) leader performs the same function. They do not meddle with the engine or the transmission; instead, they enable each component to perform at its best.<br>
 
 I try to avoid the word “manager”. It is a remnant from the industrial revolution where work was mechanical but done by humans. Factories filled with replaceable low-skilled or unskilled laborers who just needed to keep the floor operating. You manage the unexpected, you manage scenarios and circumstances, you manage projects, and you lead people, you lead towards goals and ideal outcomes.
 
@@ -979,7 +968,7 @@ This section is informed by Dan Pink’s book [“Drive: The Surprising Truth Ab
 - Praise
 - Accolates
 
-Historically, contingent motivators were highly effective when work primarily involved simple, mechanical tasks that demanded more focus than creativity. These contingent motivators rewarded task completion and its speed. For example, "Build 10 chairs in a day, earn $100; build 20 chairs in a day, earn $250." Entire management processes and policies built around these incentive structures were prevalent during the industrial revolution when work mostly required staying focused, adhering to straightforward rules, and pursuing known solutions.
+Historically, contingent motivators were highly effective when work primarily involved simple, mechanical tasks that demanded more focus than creativity. These contingent motivators rewarded task completion and its speed. For example, "Build 10 chairs in a day and earn \\\$100, build 20 chairs in a day, earn \\\$250." Entire management processes and policies built around these incentive structures were prevalent during the industrial revolution when work mostly required staying focused, adhering to straightforward rules, and pursuing known solutions.<br>
 
 However, when tasks involve cognitive functions beyond the rudimentary, motivation through extrinsic rewards ends up being counterproductive. Work that necessitates creativity, problem-solving, and inventiveness responds more favorably to intrinsic motivators.
 
@@ -1172,7 +1161,7 @@ _Image by Penn State University_
 
 - DePaul University has a rubrik for leaders to do [root-cause analysis](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf) into a particular performance issue with an employee
 
-- This test eevaluates and maps the information processing preferences of the members of a team.  Is called  https://johnmattone.com/about/assessments/iopt/
+- This test evaluates and maps the information processing preferences of the members of a team: <https://johnmattone.com/about/assessments/iopt/>
 
 
 <br>
@@ -1535,56 +1524,202 @@ The best practice for a successful [knowledge sharing culture](#knowledge-sharin
 - It is monitored for up to date relevancy
 
 
+<hr>
+
+
 #### Visualizations
 
 ***"Use a picture. It's worth a thousand words."*** - Arthur Brisbane, public relations expert who coached Ford, Edison, and Rockefeller.
 
-Consider the following visualizations to enhance your documentation:
+The important consideration is not to force data into a representation that is not is not aiding the understanding of the data. Sometimes a table is the best solution, particularly with structured and precise data.
 
-| Visualization | Information communicated | Main usage |
-|---|---|---|
-| [UML class diagrams](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/#uml-class-diagram-order-system) | Relationships between classes, <br>inheritance hierarchy, <br>attributes and methods of classes | Designing and documenting <br>the structure of a software system |
-| Dependency graphs | Dependencies between <br>software components | Identifying potential bottlenecks in a software system <br>and ensuring that all dependencies are met |
-| Sequence diagrams | Sequence of interactions <br>between objects in a system | Documenting the behavior of a software system under <br>different conditions and identifying potential concurrency problems |
-| State diagrams | States that an object can be in and <br>the transitions between those states | Documenting the behavior of an object under <br>different conditions and identifying potential race conditions |
-| Entity-relationship <br>diagrams (ERDs) | Data entities in a system and <br>their relationships to each other | Designing and documenting databases and ensuring that the data model <br>is consistent with the system's requirements |
-| Call and data flow<br>diagrams | Flow of data and control <br>through a system | Designing and documenting the architecture of a software system <br>and identifying potential bottlenecks |
-| Network diagrams | Physical and logical <br>topology of a network | Designing and troubleshooting networks |
+**Charts**<br>
+Used to turn complex data into a format that visualizes the important takeaway. They can be sub-categorized in different ways:
 
+- **Relationship Charts:** To represent correlations between variables.
+- **Comparison Charts:** To highlight differences between values or categories.
+- **Distribution Charts:** To show the spread of data.
+- **Composition Charts:** To display parts of a whole.
+
+<br>
+
+![Desktop View](/assets/img/viz_charts.png){: width="700" }
+_<https://eazybi.com/blog/data-visualization-and-chart-types>_
+
+<br>
+
+**UML Diagrams**<br>
+Unified Modeling Language diagrams are used for displaying structure, behavior, and interactions of software systems. They encompass various useful types like:
+
+- **Class Diagrams:** For representing relationships between classes, inheritance hierarchy, attributes and methods of classes.
+- **State Diagrams:** For representing states that an object can be in and the transitions between those states.
+- **Sequence Diagrams:** For representing interactions between objects in a system.
+- **Dependency Graphs:** For representing dependencies between software components.
+
+<br>
+
+![Desktop View](/assets/img/viz_umls.png){: width="800" }
+_<https://www.visual-paradigm.com/guide/uml-unified-modeling-language/overview-of-the-14-uml-diagram-types/>_
+
+<br>
+
+**ERD Diagrams**<br>
+Used for modeling and visualizing the structure of a database and its relationships between tables.
+
+<br>
+
+![Desktop View](/assets/img/viz_erd.png){: width="600" }
+_<https://docs.oracle.com/cd/A97335_02/apps.102/a81358/05_dev1.htm/>_
+
+
+<hr>
+
+
+### Static Analysis
+
+***"Flight Controls? Check. Instrummentation? Check. Comms? Check..."*** - [Launch Control Center at NASA before liftoff](https://en.wikipedia.org/wiki/Launch_status_check)
+
+In aviation and spaceflight, pre-flight checklists are a standard procedure. They serve as a simple yet effective way to mitigate risks and prevent simple errors. In the world of software engineering, static analysis plays a similar role by continuously checking code as it's being developed.
+
+For clarification, here is a simple distinction between static and dynamic analysis:
+
+**Static analysis:** Examines source code without executing the program and makes inferences about its future behavior. For example, ensuring your Apollo rocket has the right amount of fuel before launch.
+
+**Dynamic analysis:** Examines the program's behavior while it's running. Continuing the example, this is checking rocket's trajectory during the actual flight.
+
+The advantages of static analysis are plenty:
+
+- Detects bugs early in the development process.
+- Enforces best coding practices.
+- Prevents anti-patterns.
+- Identifies potential security vulnerabilities.
+- Reveals performance bottlenecks.
+- Ensures code conformity across the organization.
+- Helps prevent technical debt.
+- Improves code readability.
+
+
+To maximize the benefits of static analysis, consider the following best practices:
+
+- **Part of the Build and CI Pipeline:** Integrate static analysis into your build and continuous integration pipeline. This ensures that every code change is automatically analyzed for issues.
+
+- **Early Integration:** Implement static analysis early in the development process to catch issues as soon as possible. Integrate it with your integrated development environment (IDE), as part of code reviews, and before code is merged.
+
+- **Developers Must Like It:** User trust is crucial for static analysis tools. Low false-positive rates are essential, and feedback from developers helps improve the tool's accuracy.
+
+- **Evolves with the Organization:** Identify domain experts and internal developers who can keep the rule sets up to date and tailored to the organization's standards and style.
+
+- **Feedback Loop:** Create a feedback loop between developers and those responsible for maintaining the static analysis tooling. Encourage developers to report false positives and provide feedback to enhance the tool's accuracy.
+
+- **Meaningful Reporting:** Generate meaningful reports and dashboards to provide visibility into the state of code quality and static analysis results.
+
+
+Expanding on the last bullet, when gathering data about the code, static analysis can provide valuable insights by generating statistics about a codebase. These metrics offer a measure of code health, indicating how susceptible it is to breakage (brittleness) and how adaptable it is to change (inflexibility). However, this must be handled with care and careful consideration must be had on what can be infered from the metrics. For example, "code coverage" is not an accurate representation on the quality of a codebase. [This topic is covered in the "Measuring" chapter →](#measuring)
+
+With all this combined, there are creative ways to leverage this tooling. For example, automatically tag pre-commits with a “sensitivity score” and have custom CI pipelines for the riskier ones or going into the “unhealthier” parts of a codebase and perform a full suite of tests before merging into the repository, as opposed to a simplified suite for less sensitive commits. These approaches not only prevent code issues but also help in maintaining code health and quality.
+
+
+<hr/>
+
+
+### Code Review
+
+***"Any stupid can write the program that the computer understands, but only good programmers write code that humans understand."*** - Martin Fowler, author of "Refactoring: Improving the Design of Existing Code" and "Patterns of Enterprise Application Architecture."
+
+In the realm of effective software engineering, a rigorous and disciplined code review process is imperative. The benefits are indisputable:
+
+- Ensures code correctness, comprehension, and consistency.
+- Distributes knowledge across the organization.
+- Fosters trust and relationships among team members.
+- Establishes a historical record and paper trail.
+
+The process itself is pretty straightforward:
+
+- Every change undergoes a review before committing.
+- Every engineer is responsible for initiating reviews.
+- The organization or team should maintain a standardized checklist with clear expectations for reviewers and defined responsibilities for authors.
+
+
+Consider implementing these guidelines from a [2006 study of code reviews at Cisco Systems](https://static1.smartbear.co/support/media/resources/cc/book/code-review-cisco-case-study.pdf), which, at the time, was the largest case study ever conducted on lightweight code review processes.
+
+<br>
+Commits should ideally consist of fewer than 200 lines of code (LOC) and must not exceed 400 LOC. Anything larger can overwhelm reviewers and result in undiscovered defects.
+
+![Desktop View](/assets/img/defect_density_vs_loc.png){: width="600" }
+
+<br>
+Reviewers should aim for a rate of reviewing 300 LOC per hour for optimal defect detection. Rates under 500 are still good, but expect to miss a significant percentage of defects if the review process is faster than that.
+
+![Desktop View](/assets/img/defect_density_vs_rate.png){: width="600" }
+
+<br>
+Authors who prepare the review with annotations and explanations tend to have far fewer defects than those who do not.
+
+![Desktop View](/assets/img/defect_author_prep.png){: width="600" }
+
+- The total review time should be less than 60 minutes, and it must not exceed 90 minutes, as defect detection rates drop significantly after that time.
+
+- Reviewers' inspection rates will naturally vary, even under similar conditions, including authors, reviewers, files, and the review's size.
+
+
+Other best practices to consider:
+
+- Code reviews are not the time for debating previous implementation decisions.
+- Prioritize consistency, readability, and maintainability over perfect efficiency. *Code is read far more often than it is written.*
+- Make sure everyone knows that code is owned by the team, not individual engineers. 
+- Maintain a "codeowners" file in each directory, listing the stewards for that specific section of the codebase.
+
+- Implement a [staged process](https://abseil.io/resources/swe-book/html/ch09.htm) for reviewing:
+  - Peer: Approves correctness and comprehension (LGTM) - Does it work?
+  - Directory owner: Approves that it adds value to the feature - Does it meet the goal without unintended consequences?
+  - Readability expert: Approves style and best practices - Does it align with and continues best practices?
+
+Lastly, like any organizational process, the code review process is subject to degradation as the organization scales. Consider tracking these internal metrics to assess the health of the code review process:
+
+- **Inspection rate:** Speed at which a review is performed.
+- **Defect rate:** Number of issues found per hour of review.
+- **Defect density:** Average number of issues found per line of code.
+
+**As with many software metrics, exercise caution when using them as a signal for performance.**
+
+
+<hr/>
 
 
 ### Testing
+***“Hope is not a strategy. Luck is not a factor. Fear is not an option.”*** - James Cameron, Movie Director
+
 Testing is the core action to guarantee quality. It is preventative medicine and diagnostic medicine at the same time. Every organization and team says they are quality focused and pay attention to their testing, but for many, as soon as the testing gets in the way of “delivery”, then it becomes clear that it was a second class citizen all along.
 
 To guarantee that testing is as important as delivering, the organization needs to be ruthless in maintaining a healthy test environment. The alternative can actually be worse than having no testing at all. **Slow test suites = Engineers working around the tests.**
 
-Unfortunately, variations of: *“But time writing tests is time not spent on feature work”*, continue to said by people who work in tech but do not understand it. The short-term gains pale in comparison to the medium and long term ones:
+Unfortunately, variations of, *“but time writing tests is time not spent on feature work”*, continue to said by people who work in tech but do not understand it. The short-term gains pale in comparison to the medium and long term ones:
 
 - Testing acts as documentation. 
-- Ramp up time is reduced
-- Faster code reviews
-- More efficient engineers
-- Less debugging time:
-- More time spent on building rather than fixing
-- Expandability
-- Higher confidence leads to more ambitious upgrades
+- Ramp up time is reduced.
+- Faster code reviews.
+- More efficient engineers.
+- Less debugging time.
+- More time spent on building rather than fixing.
+- Expandability.
+- Higher confidence leads to more ambitious upgrades.
 
 A healthy testing infrastructure follows the ["Pyramid Pattern"](https://martinfowler.com/articles/practical-test-pyramid.html)
 ![Desktop View](/assets/img/software_testing.png)
 _The Pyramid Pattern_
 
 **Best practices**
-- 1% flakiness means no test value
-- Test should be hermetic and not assume anything: order, database data, etc
-- Tests should avoid control flow statements like loops and conditionals
-- Tests should be deterministic and fast, and these can be at odds
-- Tests should be explicit rather than modular
-- If you care about it, put a test on it (Beyonce Rule)
-- Maintainable/Non-brittle
+- 1% flakiness means no test value.
+- Test should be hermetic and not assume anything: order, database data, etc.
+- Tests should avoid control flow statements like loops and conditionals.
+- Tests should be deterministic and fast, and these can be at odds.
+- Tests should be explicit rather than modular.
+- If you care about it, put a test on it (Beyonce Rule).
+- Maintainable/Non-brittle.
 - Unchanging: Should only change when the requirements of the system change
-  - New features: shouldn’t change existing tests
-  - Bug fixes: usually means a missing test case, so they add tests, not change them
-  - Behavior changes: should change existing tests and add new ones
+  - New features: shouldn’t change existing tests.
+  - Bug fixes: usually means a missing test case, so they add tests, not change them.
+  - Behavior changes: should change existing tests and add new ones.
 
 
 #### Unit Testing
@@ -1632,29 +1767,397 @@ Summarized table from the [Large Testing chapter](https://abseil.io/resources/sw
 | Chaos Engineering | Production env | Production | Manual |
 | User Evaluation | Production env | Production | Manual |
 
+<br>
+
+<hr/>
+
+
+### Technical Debt
+
+![Desktop View](/assets/img/cruft.png){: width="600" }
+_- [Martin Fowler on Technical Debt](https://martinfowler.com/bliki/TechnicalDebt.html)_
+
+Software systems, over time, tend to accumulate what has been labeled "technical debt." This term describes the deficiencies in the internal quality of a software system that make it more challenging than it should, to modify and extend the system further. The metaphor of "technical debt" compares these deficiencies to financial debt.
+
+**The extra effort required to add new features or make improvements represents the interest paid on the technical debt.**<br>
+
+Coined by [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham), the metaphor sheds light on the idea that taking shortcuts in your software development process has long-term consequences. Just as with financial debt, where borrowing money incurs an interest cost, taking shortcuts in software development today means paying a price with interest later. For instance, introducing a global variable to save time in the short term might lead to spending more than that saved time on fixing issues down the line.
+
+**Impact**<br>
+A high level of technical debt in the codebase translates into a slow delivery of new features. This is a very common source of frustration and can lead to difficult conversations about the system's capability to support business needs. However, developers are the ones that truly feel the impact of technical debt. The reduced productivity and working around constraints that they know should be fixed can be extremely frustrating. If left unchecked for long enough, talented and sought after engineers will jump ship into organizations that invest in paying off their debt. Not only is the frustration on an individual level, it often leads to conflicts within the team. Usually in the form of disagreements about the best approach to address the mounting technical debt or to work around it. 
+
+**How to Improve**<br>
+Recognizing and feeling technical debt is one thing; effectively managing it is another. To address it, teams must allocate time and resources to deal with it proactively:
+
+- **Dedicate Capacity:** Without a dedicated effort, it will never be addressed. Establish a regular cadence for the team to allocate time to tackle technical debt issues. Delaying this work only makes the situation worse.
+
+- **Integrate with Regular Work:** Track technical debt items alongside other work items (such as user stories or tasks). Ensure that a portion of your team's effort is directed towards addressing technical debt, perhaps making it a part of every sprint.
+
+- **Scheduled Technical Debt Days:** Designate one day every week for addressing technical debt issues. For a standard five-day workweek, this equates to a minimum of 20% of your development capacity dedicated to addressing debt.
+
+- **Rotating Role:** Implement a rotating role within the development team, where assigned developers work exclusively on addressing technical debt for a set period.
+
+- **Prevent New Debt:** In addition to addressing existing technical debt, teams should actively work to prevent incurring new debt. This involves careful code practices and refactoring as an integral part of feature development.
+
+**Managing Debt**<br>
+There's a common misconception that all technical debt is detrimental and should be avoided at all costs. Just as in the world of financial debt, not all debt is created equal. Taking on manageable technical debt for strategic reasons can be a sound decision. The key is to understand the type of debt being incurred and its interest rate, which, in the context of technical debt, is the time spent addressing it.
+
+As it happens often, stakeholders may resist addressing technical debt due to various reasons. If full buy-in is challenging to obtain, there are some modest steps you can take:
+
+- **Quantify and Visualize Impact**: Create a dashboard or table that easily shows the areas of the code where the debt hasn't been paid. Utilize this dashboard in early feature and design conversations and record how often the business is paying the price of not correcting the issues.
+- **Identify Debt Upfront:** When you anticipate technical debt in a project, create a ticket for it in your project-management tool. Estimate its level of effort, treating it like any other project item.
+- **Use Windfalls:** If a project is completed ahead of schedule, allocate the extra time to pay down technical debt, effectively reducing the interest on that debt.
+- **Emphasize Opportunities:** Make stakeholders aware of the benefits of addressing technical debt. By investing a short amount of time in resolving tech debt items, you can unlock opportunities for critical business functions to scale and perform more effectively.
+
+
+<hr/>
+
+### CI/CD
+
+***"Besides black art, there is only automation and mechanization."*** - Federico García Lorca, Spanish poet and playwright.
+
+CI/CD is a fundamental practice in modern software development. It accelerates software delivery, enhances quality, and minimizes the time between code changes and user accessibility. Here's a comprehensive CI/CD pipeline with multiple various stages, ensuring code quality, security, and reliability:
+
+1. **Push Commit**: Developers commit their code changes.
+ 
+2. **Build Binaries**: Code is compiled into executable binaries.
+
+3. **Run Static Analyzers (Linters)**: Static analyzers check code for issues and compliance with coding standards.
+
+4. **Run Unit Tests**: Testing individual code components.
+
+5. **Run Security Checks**: Identifying and mitigating vulnerabilities.
+
+6. **Publish Generated Artifacts to Storage**: Storing build artifacts for later stages.
+
+7. **Build Container Images and Publish to Container Registry**: Preparing container images for deployment.
+
+8. **Perform Integration Tests**: These tests check how different parts of your application interact with each other, ensuring that they work together seamlessly.
+
+9. **Deploy to Staging Environment**: After building and testing, deploying the application to a staging environment for comprehensive testing that closely resembles the production environment.
+
+10. **Perform Full Testing**:  Check the functionality and behavior of the entire application, simulating real-world scenarios, how it performs under various loads, check with stakeholders and ensure it meets requirements and expectations.
+
+11. **Release Approval**: A manual or automated step to ensure that the application is ready for production deployment, with checks for compliance and quality.
+
+12. **Deploy to Production Environment**: Consider following safe strategies for deploying new versions of the application to production, where you can gradually shift user traffic to the new version for monitoring and rollback if issues arise.
+
+13. **Zero-Downtime Deployments**: CI/CD pinnacle where updates are seamlessly rolled out, leaving users unaffected. Achieved through orchestration and rigorous testing, exemplifying pipeline resiliency.
+
+
+**Test Strategies**
+- **Pre-Submit Testing**: Swift, high-signal tests for pre-submit commits uphold code quality during development.
+- **Post-Submit Testing**: Comprehensive tests post-submit offer enhanced codebase confidence.
+- **Staging Testing**: Thorough testing in a staging environment, ahead of production deployment, ensures validation of critical scenarios.
+- **Production Testing**: Running a complete test suite against the production environment guarantees the final, correct code state.
+- **Representative Testing**: When comprehensive testing is not possible, go for select representative scenarios to gain valuable insights.
+
+
+**Deployment Strategies**<br>
+- **Incremental Rollouts and Canary Deployments**: To minimize risk and gather rapid feedback, consider incremental rollouts. Deploy updates to a small subset of users initially before full distribution, allowing for early issue detection and user-focused changes.
+- **Experiments and Flag-Guarding**: They reduce deployment risk by isolating changes within modular components that can be dynamically toggled in production.
+- **Automated A/B Releases**: Automate A/B testing in the CI/CD pipeline for controlled comparisons.
+- **Fast Automatic Rollbacks**: Rapid, automated rollbacks in case of issues maintain software reliability.
+
+
+**Other Best Pratices**<br>
+- **Implementing CI/CD for Infrastructure as Code (IaC)**: Extending CI/CD principles to Infrastructure as Code (IaC) automates infrastructure provisioning and management, ensuring consistency and reliability. This practice minimizes misconfigurations and enhances deployment efficiency.
+
+- **Zero-Downtime Deployments**: Zero-downtime deployments exemplify CI/CD excellence. They involve seamless updates without disrupting users, achieved through meticulous orchestration and rigorous testing. This demonstrates the resiliency of your CI/CD pipeline.
+
+- **Immutable Infrastructure and Blue-Green Deployments**: Treating infrastructure as code and using blue-green deployments offer consistent environments and swift rollbacks in case of issues. These practices boost the resilience of your CI/CD pipeline.
+
+- **Configuration as Code**: Managing application configurations as code ensures version control, auditability, and consistency across environments. It streamlines deployment and mitigates misconfiguration risks that can lead to operational issues.
+
+- **GitOps**: A progressive approach within CI/CD, GitOps, manages the entire pipeline through version-controlled Git repositories. This simplifies deployment and configuration management, offering consistency and auditability.
+
+
+Like pretty much every aspect of software engineering, to maintain a robust CI/CD pipeline, it's crucial to invest in observability and monitoring tools. These tools provide real-time insights into the pipeline's health and performance. Monitoring key metrics and setting up alerts allows organizations to detect and address issues proactively, ensuring consistent delivery of reliable, high-performance software.
 
 
 
-1. The problem is well understood
-2. So all the relevant questions can be answered
-3. 
+### Productivity & Performance
 
-Bug identification was measured using the corrective commit probability, the ratio of commits determined to be related to fixing bugs. The analysis showed that popular projects had a higher ratio of bug fixes (e.g., Google's popular projects had a 27% higher bug fix rate than Google's less popular projects). 
+***"The customer doesn’t care about story points, they care about quality of the features they need."*** 
 
-Style Guides:
-Rules must:
-Pull their weight
-Optimize for the reader vs author
-Be consistent
-Avoid error-prone or surprising constructs
-Concede to practicalities
+Reducing the intricate art of software engineering to mere code generation through the use of story points oversimplifies the process. While story points play a valuable role in project management, it's important to remember that engineers are motivated by what rewards them. Ultimately, the end customer's concern lies not in points but in the quality of the features they rely on.
 
-Types
-To avoid dangers
-To enforce best practices
-To ensure consistency
-Not the universal ones
+When it comes to metrics, while velocity is important, it takes a back seat to the concepts of acceleration and deacceleration. Once a baseline is established for a team or an individual, changes in these metrics can reveal underlying issues and offer valuable insights.
 
+From a [2019 study on Engineering Productivity](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/54eb17429fe4bce386a7db598d656b6a4a1bc749.pdf) by Google: 
+
+*“Our results suggest that the factors that most strongly correlate with self-rated productivity were non-technical factors, such as job enthusiasm, peer support for new ideas, and receiving useful feedback about job performance. Compared to other knowledge workers, our results also suggest that software developers’ self-rated productivity is more strongly related to task variety and ability to work remotely.”*
+
+Furthermore, Google's Productivity Research team found that many organizations forget core trade-offs when trying to measure engineering output. They become focused on velocity and forget to measure quality (or vice versa). The team concluded that productivity can be decomposed into five core components. These five components are in trade-off with one another, and should be considered together. They used the mnemonic “QUANTS”:
+
+**Q**uality of the code
+- What is the quality of the code produced?   
+- Are the test cases good enough to prevent regressions? 
+- How good is an architecture at mitigating risk and changes?
+
+**A**ttention from engineers
+- How frequently do engineers reach a state of flow?  
+- How much are they distracted by notifications? 
+- Does a tool encourage engineers to context switch?
+
+I**n**tellectual complexity
+- How much cognitive load is required to complete a task?  
+What is the inherent complexity of the problem being solved? 
+Do engineers need to deal with unnecessary complexity?
+
+**T**empo and velocity
+- How quickly can engineers accomplish their tasks?
+- How fast can they push their releases out?
+- How many tasks do they complete in a given timeframe?
+
+**S**atisfaction
+- How happy are engineers with their tools?
+- How well does a tool meet engineers' needs? 
+- How satisfied are they with their work and their end product? 
+- Are engineers feeling burned out?
+
+So, what are strategies to measure productivity? They can be
+
+
+**Qualitative:**
+- Quarterly surveys
+- On tools, processes, and activities. Use Goals Signals Metrics framework
+- Realtime feedback
+
+**Quantitative:**
+- Ingests logs from dev tools
+- Captures sessions to view dev workflows such as code reviews
+- Captures metrics such as coding time, reviewing time, email time, meeting time
+
+
+Do not use productivity metrics as performance reviews. Don’t measure productivity of individuals, measure the aggregate productivity of a team.
+
+
+<hr/>
+
+
+## Effective Software Architectures
+
+A constantly evolving topic, however, these are the most common (non-mutually exclusive) architectural patterns:
+
+- Monolithic
+- Service-Oriented / Microservices
+- N-Tier
+- Web-Worker-Queue
+- Serverless
+- Containerized & Orchestrated
+- Event-Driven
+- Multitenancy
+- API-First
+- Jamstack
+- Headless CMS
+- Progressive Web App 
+
+Each of these architectural patterns has its own unique implementations. The challenge lies in choosing the right one early in your project's lifecycle to ensure long-term success. As this landscape keeps evolving, it's wise to keep your options open for future changes.
+
+
+| Pattern | Benefits | Challenges | Use When | Do Not Use When |
+|---|---|---|---|---|
+| Monolithic | Simplicity during development and deployment.<br>Efficient communication between components. | Scaling can be challenging since the entire application is scaled as a single unit.<br>Codebase can become complex and hard to maintain as the application grows. | Smaller projects with straightforward requirements.<br>Rapid development and prototyping. | Large, complex applications requiring extensive scalability and flexibility.<br>Projects with diverse technology stacks. |
+| Service Oriented,<br>Micro-services | Scalability and flexibility for large, complex applications.<br>Technology and language agnosticism. | Complexity in managing and coordinating multiple services.<br>Potential latency in communication between services. | Large, complex applications with varying workloads.<br>Teams with expertise in specific domains. | Smaller projects with limited scalability needs.<br>Projects with tight development timelines. |
+| N-Tier | Separation of concerns and maintainability.<br>Scalability at specific tiers. | Complexity in managing multiple tiers and dependencies.<br>Tight coupling between layers. | Enterprise-level applications with clear separation of concerns.<br>Projects requiring a structured and maintainable architecture. | Small projects where the added complexity may outweigh the benefits. |
+| Web-Worker-Queue | Efficient handling of background tasks and asynchronous processing.<br>Scalability and fault tolerance. | Management and coordination of worker processes.<br>Ensuring data consistency and handling failures. | Applications with resource-intensive or time-consuming tasks.<br>Scalable backends with real-time features. | Simple applications with minimal background processing. |
+| Serverless | No infrastructure management.<br>Auto-scaling and cost-efficiency. | Limited control over infrastructure.<br>Potential cold start latency in serverless functions. | Event-driven, stateless functions.<br>Backend for mobile and web apps. | Long-running or resource-intensive processes. |
+| Containerized <br>& <br>Orchestrated | Portability and consistency in deployment.<br>Scalability and orchestration of containers. | Complexity in container management and orchestration.<br>Resource utilization and cost monitoring. | Microservices architectures.<br>Applications that need to run consistently across different environments. | Simple applications with low resource requirements. |
+| Multitenancy | Independent scaling and customization for each tenant.<br>Shared management and resources reduce complexity and costs. | Data isolation and securing access between tenants.<br>Performance consistency across the individual requirements. | SaaS organizations providing software to multiple customers.<br>E-Commerce platforms hosting multiple online stores. | Low or single tenancy count.<br>Tenants requiring extensive customization. |
+| Event-Driven | Loose coupling of components.<br>Real-time data processing and responsiveness. | Event propagation and message processing.<br>Ensuring event order and delivery. | Real-time data processing, IoT, and event-driven applications.<br>Systems requiring decoupled components. | Simple, single-purpose applications. |
+| API-First | Clear and consistent API design.<br>Promotes reusability and integration. | Ensuring consistent and discoverable APIs.<br>Managing versioning and documentation. | Projects that require public or internal APIs.<br>Microservices with external interfaces. | Internal, small-scale applications with no API exposure. |
+| Jamstack | Fast and secure web experiences.<br>Simplified deployment and scaling. | Requires specialized tools for building and deploying.<br>Not suitable for dynamic content and applications. | Content-driven websites and blogs.<br>Sites with low interactivity and dynamic content needs. | Complex web applications with heavy client-side logic. |
+| Headless CMS | Separation of content management from presentation.<br>Flexibility and ease of content delivery. | Integration with the frontend and maintenance.<br>Learning curve for headless CMS usage. | Content-rich websites and applications.<br>Projects requiring multisite content management. | Simple static websites or single-page applications. |
+| Progressive Web App | Enhanced user experience with offline access and speed.<br>Improved engagement and conversion rates. | Requires advanced frontend development skills.<br>May not be suitable for all types of applications. | Consumer-facing web applications, e-commerce, news sites.<br>Projects where mobile and web experiences should be consistent. | Internal tools or enterprise applications. |
+
+
+### Components
+
+A summary of common components and services used in most software architectures. Most of these have the corresponding [AWS product](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/amazon-web-services-cloud-platform.html) with their definition.
+
+**Servers**
+- **Web Servers:** These servers handle incoming HTTP requests from clients, serve web pages, and may perform some initial processing.
+
+- **Application Servers**: These servers execute the core business logic and process more complex operations beyond serving web pages (EC2).
+
+- **Caching Servers**: Caching servers like Redis or Memcached are used to store frequently accessed data in memory for faster retrieval (ElastiCache)
+
+- **Proxy Servers**: Proxy servers sit between clients and other servers, serving as intermediaries to handle requests, improve security, or act as gateways to internal services.
+
+- **Load Balancers**: Load balancers distribute incoming traffic across multiple web or application server instances to ensure even load distribution and high availability (Elastic Load Balancer)
+
+- **Content Delivery Networks**: CDNs distribute content to geographically distributed servers, reducing latency and improving content delivery (CloudFront).
+
+- **Network Appliances**: VPCs, Subnets, Internet/NAT Gateways, etc
+
+**Data Storage and Retrieval Services**<br>
+Fundamental components that allow storing, managing, and accessing different types of data, structured in different formats to optimize for a wide array of operations and use cases.
+
+- **Relational Databases**: Relational databases are a type of structured data storage system that organizes data into tables with predefined schemas. They use Structured Query Language (SQL) for their operations. (RDS, Aurora)
+
+- **NoSQL Databases**: Non-relational databases designed to handle semi-structured data, offering flexibility in data modeling. They are typically in the form of key-value pairs (XML, JSON) for their operations. (DynamoDB)
+
+- **NewSQL Databases:** A class of relational database management systems that combine the scalability of NoSQL systems with the ACID guarantees of a traditional database system.
+
+- **In-Memory Databases**: Data stored in RAM for extremely fast data retrieval at the expense of persistence. Mostly used for caching services, optimizing frequently accessed data to reduce the load on primary data storage. (ElastiCache)
+
+- **Data Lakes**: Storage repositories that can hold vast amounts of data of all types, structured, semi-structured, but particularly for raw, unstructured data such as text files, images, audio, video, etc. (S3)
+
+- **Data Warehouses**: Databases used for storing and analyzing large volumes of structured data. (Redshift)
+
+**Messaging Services**<br>
+These services are the backbone of communication in distributed systems, enabling the exchange of data between components and facilitating various messaging scenarios. They come in different flavors, each tailored to specific use cases.
+
+- **Message Queues (SQS)**: Designed for ensuring the successful delivery and processing of messages, emphasizing individual client interactions. They are suited for scenarios where maintaining message order is critical and basic queuing functionality suffices. Message Queues guarantee message order, making them suitable for managing tasks in background job processing systems.
+
+- **Message Brokers (MQ)**: More feature-rich queues providing routing, message transformation, and protocol mediation. They excel in orchestrating complex messaging scenarios and are ideal for systems with multiple interconnected components that need to exchange data in flexible ways. With routing and message transformation capabilities, Message Brokers provide sophisticated message handling for various data formats and protocols.
+
+- **Event Brokers (SNS, EventBridge)**: They ocus on message delivery in an event-driven architecture, broadcasting the same message to multiple recipients. They promote loose coupling between components by using a publish-subscribe model, where events are published to specific topics, and subscribers express interest in particular topics. Event Brokers are best suited for scenarios demanding real-time data sharing, event-driven programming, and service decoupling, making them a vital component in microservices architectures and applications requiring real-time updates.
+
+
+**Containers and Orchestration Services**<br>
+Containerizing (A2C), Container Registries (ECR), Container Orchestration (ECS, EKS).
+
+**Microservices and Serverless Services**<br>
+API Gateways, Event-Driven Computing (Lambda), Authentication and Authorization Services (Cognito).
+
+**Monitoring and Logging Services**<br>
+Tools for tracking system performance and diagnosing issues (CloudTrail, CloudWatch).
+
+**Specialized Services**<br>
+Application Management (ElasticBeanstalk), Identity and Access Management (IAM), Secret Handlers, Search Engines (OpenSearch), Business Intelligence (QuickSight), Analytics Tools (Athena, Kinesis)
+
+
+### Practices
+
+This is an attempt at organizing a "cheat sheet" of an ever-evolving number of practices that are important to know when designing software architectures.
+
+**Architectural & Development Patterns**
+- **[12 Factors](https://12factor.net/)**: A set of guidelines for building cloud-native applications with a focus on scalability, resilience, and maintainability.
+- **Serverless Computing**: Understanding serverless architecture and its benefits, such as automatic scaling and reduced operational overhead.
+- **Microservices Architecture**: Designing software as a collection of small, independent services that can be developed, deployed, and scaled independently.
+- **Immutable Infrastructure**: Extending the concept of immutable infrastructure to application code and configuration, not just infrastructure components.
+- **Chaos Engineering**: Testing and improving a system's resilience by intentionally injecting failures and monitoring its behavior.
+- **Containerization and Orchestration**: Understanding container technologies like Docker and container orchestration tools like Kubernetes. These are crucial for managing and deploying applications in a containerized environment.
+- **API-First Design**: Developing APIs as a core part of the system's architecture and design.
+- **Domain-Driven Design**: Structuring software around specific business domains for better organization and understanding.
+- **CQRS (Command Query Responsibility Segregation)**: Separating the data modification (command) and data retrieval (query) parts of an application for improved scalability and performance.
+- **Event Sourcing**: Storing data as a series of immutable events for maintaining a full history of changes.
+- **Reactive Programming**: Building systems that react to data changes, enabling real-time functionality.
+- **Infrastructure as Code (IaC)**: Leveraging IaC tools like Terraform or AWS CloudFormation to manage and provision infrastructure programmatically.
+
+
+**Scalability and Performance**
+- **Autoscaling**: Automatically adjusting resource allocation to handle varying workloads and traffic.
+- **Caching**: Storing frequently accessed data in memory for faster retrieval and reduced load on databases.
+- **Content Delivery Networks (CDNs)**: Distributing content to geographically dispersed servers for lower latency and faster content delivery.
+- **Data Partitioning**: Dividing data into smaller parts to improve performance and manageability.
+- **Database Sharding**: Horizontal partitioning of databases to distribute data across multiple servers for scalability.
+- **Load Balancing**: Distributing incoming network traffic across multiple servers or resources to ensure high availability.
+- **Database Indexing**: Enhancing database query performance by creating efficient indexes.
+- **Amortization**: Spreading the cost of an operation over time to reduce immediate impact.
+- **Batch Processing**: Processing data in large batches for efficiency.
+- **Vertical Scaling**: Increasing the capacity of a single server by adding more resources (e.g., RAM, CPU).
+- **Horizontal Scaling**: Adding more servers to distribute the workload and improve system performance.
+
+
+**Resilience and Reliability**
+- **Monitoring**: Implementing tools and practices for real-time system health checks and performance tracking.
+- **Retry Mechanisms**: Strategies for handling transient failures by automatically retrying operations.
+- **[Log Aggregation](https://aws.amazon.com/blogs/big-data/unify-log-aggregation-and-analytics-across-compute-platforms/)**: Collecting and analyzing log data from multiple sources for debugging and monitoring.
+- **Redundancy and Failover**: Ensuring system availability by duplicating critical components.
+- **Circuit Breakers**: Preventing excessive traffic to a failing service to maintain overall system stability.
+- **Fallbacks**: Providing alternative responses or mechanisms when primary functionality fails.
+- **Timeouts**: Specifying maximum allowable time for an operation to prevent indefinite waiting.
+- **Idempotence**: Ensuring that an operation can be repeated multiple times with the same result.
+- **Versioning**: Managing changes in data and APIs to maintain backward compatibility.
+- **Immutable Infrastructure**: Treating infrastructure components as immutable, making updates by replacing rather than modifying.
+- **Service Mesh**: Implementing a service mesh (e.g., Istio) for enhancing the resilience and observability of microservices-based architectures.
+
+
+**Security**
+- **[Secret Handling](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)**: Secure storage and management of sensitive data like API keys and credentials.
+- **Firewalls and Intrusion Detection/Prevention Systems**: Protecting systems from unauthorized access and threats.
+- **Security Protocols**: Implementing secure communication protocols like SSL/TLS.
+- **Vulnerability Scanning**: Regularly assessing and patching security vulnerabilities in software and dependencies.
+- **Authentication and Authorization**: Verifying user identity and defining what actions they can perform.
+- **Data Encryption**: Protecting data by converting it into a secure format that requires decryption to be read.
+- **Input Validation**: Ensuring that input data is safe and does not introduce security vulnerabilities.
+- **Output Encoding**: Encoding output to prevent cross-site scripting (XSS) attacks.
+- **Content Security Policy (CSP)**: Defining and enforcing policies to mitigate security risks in web applications.
+- **Cross-Site Request Forgery (CSRF) Protection**: Implementing measures to prevent CSRF attacks.
+- **API Security**: Enhancing API security with practices like OAuth, JWT, and API rate limiting.
+- **Data Privacy and Compliance**: Understanding data privacy regulations (e.g., GDPR, CCPA) and how they impact software architecture and data handling.
+
+
+**Database Optimization**
+- **Query Optimization**: Techniques for improving database query performance.
+- **[Denormalization](https://www.splunk.com/en_us/blog/learn/data-denormalization.html)**: Storing redundant data to reduce complex joins and speed up queries.
+- **Database Replication**: Creating copies of a database to improve data availability and redundancy.
+- **Database Version Control**: Managing database schema changes and migrations.
+- **ACID Transactions**: Ensuring the reliability of database transactions.
+- **Schema Design**: Structuring database schemas for efficiency and data integrity.
+- **Indexes**: Creating efficient indexes for faster data retrieval.
+- **Scalable Databases**: Exploring scalable database technologies, such as NewSQL databases, that are designed for high scalability and performance.
+
+
+**Data Processing**
+- **MapReduce**: A programming model and data processing technique for distributed and parallel processing of large datasets. It's particularly useful for tasks that can be divided into "map" and "reduce" phases, providing scalability and performance improvements.
+- **ETL (Extract, Transform, Load)**: ETL processes involve extracting data from various sources, transforming it to fit the target schema, and loading it into a data store or data warehouse. ETL is crucial for data integration and analysis.
+- **Stream Processing**: Stream processing frameworks like Apache Kafka and Apache Flink enable real-time data processing and analytics. They're used in scenarios where low-latency data analysis is required.
+- **Data Migration**: Data migration strategies and tools are essential for moving data between systems, such as when transitioning to a new database or cloud platform.
+- **Data Warehousing**: Understanding data warehousing concepts for large-scale data analysis and reporting.
+- **OLTP**: Online Transaction Processing is a type of data processing that consists of executing a number of transactions occurring concurrently.
+
+
+**Tenancy and Multitenancy**
+- **Multitenancy**: Designing applications to serve multiple tenants or customers from a single instance.
+- **Isolation**: Ensuring the separation and security of tenant data.
+- **Data Security**: Implementing measures to protect tenant data.
+- **Performance Optimization**: Optimizing the system to provide consistent performance for all tenants.
+
+
+**Development and Operations**
+- **DevOps Practices**: Incorporating DevOps principles and practices, including continuous integration, continuous deployment (CI/CD), and automation of software development and operations processes.
+
+
+
+**Networking**
+- **Public/Private [Subnet Connectivity](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html)**: Managing network access and security within subnets.
+- **Content Distribution**: Efficiently distributing large files or content across multiple servers.
+- **CDN Integration**: Integrating Content Delivery Networks for faster content delivery.
+- **API Gateways**: Managing and securing APIs for external access.
+- **Reverse Proxies**: Acting as intermediaries between clients and servers for load balancing and security.
+- **Load Balancers**: Distributing network traffic for high availability and fault tolerance.
+- **DNS**: Resolving domain names to IP addresses for network communication.
+- **Service Discovery**: Automatically locating and connecting to services in a network.
+
+
+**Internationalization**
+- **Internationalization and Localization**: If your software has a global audience, consider the challenges and practices for internationalization and localization.
+
+
+<hr/>
+
+
+### Optimizations
+***"Prematurely optimizing small efficiencies is usually the root of all evil; prematurely optimizing large efficiencies is a necessity."*** - Donald Knuth, [the informal Nobel Prize winner of computer science.](https://en.wikipedia.org/wiki/Donald_Knuth)
+
+
+Every software product has to fulfill a utility, they don’t just exist as art installations. Depending on what the product or service is designed to achieve, there are a few core improvements that can be made to maximize the providing of said utility to the end user:
+
+1. Performance
+2. Scalability
+3. Maintenability
+4. Resiliency/Availability
+5. Security
+6. Cost
+
+However, there is a delicate balance on when to pursue any of these optimizations. Doing so too far in advance can be wasteful and disastrous. There are steep learning curves, the handling of the extra complexity can have a considerable negative impact on a small startup, and most importantly, the cost could easy put a young organization out of business. Consider the 3X Approach in the Success Chapter of Effective Organization. Don’t focus on these if you are exploring, identify which optimizations matter to you if you are expanding, and invest and focus on these if you are extracting. 
+
+
+<hr/>
 
 
 ## References
