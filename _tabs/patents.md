@@ -25,7 +25,7 @@ tab_title: Patents
 ## Methods and Systems for a Gastronomic Recommendation Engine
 **Publication No.:** [2017/0053362 A1](https://patentimages.storage.googleapis.com/98/b7/34/ace6f12f519961/US20170053362A1.pdf)<br>
 **Date of Publish:** February 23, 2017<br>
-**Status:** **Status:** Filed by Tastegraphy<br>
+**Status:** Filed by Tastegraphy<br>
 **Summary:** A method for providing user-specific restaurant dish recommendations based on a user's taste profile, leveraging a Recommendation Engine that learns the user's preferences through ratings and viewing habits.<br>
 
 

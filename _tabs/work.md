@@ -46,7 +46,7 @@ In the meantime, I've been busy completing the construction of a 1965 Shelby Cob
 
 **Responsibilities:** 
   - Architected, developed, and supported full-stack Python, Django, and Javascript tools to manage and act on custom analytics of +100M e-commerce conversion events.
-  - Implemented and supported custom API marketing server-side integrations in Python, PHP, Ruby, Java, and Javascript
+  - Implemented and supported custom API marketing server-side integrations in Python, PHP, Ruby, Java, and Javascript.
   - Designed, developed, and supported a serverless Shopify app with AWS products.
 
 **Highlights:**
@@ -67,7 +67,7 @@ In the meantime, I've been busy completing the construction of a 1965 Shelby Cob
 
 **Responsibilities:** 
   - Architected, developed, and supported an API-based Django/Python backend with a CI/CD pipeline in AWS, as well as co-designed and co-developed a front-end React app.
-  - Designed a parameterization procedure for cataloguing early and growth stage startups, based on latest entrepreneurial investment research.
+  - Designed a parameterization procedure for cataloging early and growth-stage startups, based on latest entrepreneurial investment research.
   - Developed a machine learning platform implementing several statistical techniques in TensorFlow.
 
 **Highlights:**
