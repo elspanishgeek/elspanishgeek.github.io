@@ -2013,7 +2013,7 @@ These services are the backbone of communication in distributed systems, enablin
 
 - **Message Brokers (MQ)**: More feature-rich queues providing routing, message transformation, and protocol mediation. They excel in orchestrating complex messaging scenarios and are ideal for systems with multiple interconnected components that need to exchange data in flexible ways. With routing and message transformation capabilities, Message Brokers provide sophisticated message handling for various data formats and protocols.
 
-- **Event Brokers (SNS, EventBridge)**: They ocus on message delivery in an event-driven architecture, broadcasting the same message to multiple recipients. They promote loose coupling between components by using a publish-subscribe model, where events are published to specific topics, and subscribers express interest in particular topics. Event Brokers are best suited for scenarios demanding real-time data sharing, event-driven programming, and service decoupling, making them a vital component in microservices architectures and applications requiring real-time updates.
+- **Event Brokers (SNS, EventBridge)**: They focus on message delivery in an event-driven architecture, broadcasting the same message to multiple recipients. They promote loose coupling between components by using a publish-subscribe model, where events are published to specific topics, and subscribers express interest in particular topics. Event Brokers are best suited for scenarios demanding real-time data sharing, event-driven programming, and service decoupling, making them a vital component in microservices architectures and applications requiring real-time updates.
 
 
 **Containers and Orchestration Services**<br>
